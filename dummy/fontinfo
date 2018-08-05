@@ -20,6 +20,8 @@ begin FDDict LOWERCASE
 	DominantV [86]
 	DominantH [68]
 	FlexOK false
+	VCounterChars [m]
+	HCounterChars [ ] # intentionally left blank for tests
 end FDDict LOWERCASE
 
 
@@ -31,6 +33,8 @@ begin FDDict UPPERCASE
 	DominantV [86]
 	DominantH [68]
 	FlexOK false
+	VCounterChars [M T]
+	HCounterChars [] # intentionally left empty for tests
 end FDDict UPPERCASE
 
 
@@ -42,6 +46,7 @@ begin FDDict FIGURES
 	DominantV [86]
 	DominantH [68]
 	FlexOK false
+	HCounterChars [element equivalence notelement divide]
 end FDDict FIGURES
 
 begin FDDict TEXT_FIGURES
