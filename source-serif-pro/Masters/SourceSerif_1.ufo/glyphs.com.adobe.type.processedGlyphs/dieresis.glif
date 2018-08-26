@@ -1,52 +1,43 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="dieresis">
-	<unicode hex="00A8" />
-  <advance width="400" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dieresis" format="2">
+  <advance width="400"/>
+  <unicode hex="00A8"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="304" y="597" />
-      <point x="336" y="597" />
-      <point x="362" y="621" />
-      <point type="curve" x="362" y="653" />
-      <point x="362" y="685" />
-      <point x="336" y="709" />
-      <point type="curve" x="304" y="709" />
-      <point x="272" y="709" />
-      <point x="245" y="685" />
-      <point type="curve" x="245" y="653" />
-      <point x="245" y="621" />
-      <point x="272" y="597" />
-      <point type="curve" x="303" y="597" />
+      <point x="304" y="597" type="line" name="hintSet0000"/>
+      <point x="336" y="597"/>
+      <point x="362" y="621"/>
+      <point x="362" y="653" type="curve"/>
+      <point x="362" y="685"/>
+      <point x="336" y="709"/>
+      <point x="304" y="709" type="curve"/>
+      <point x="272" y="709"/>
+      <point x="245" y="685"/>
+      <point x="245" y="653" type="curve"/>
+      <point x="245" y="621"/>
+      <point x="272" y="597"/>
+      <point x="303" y="597" type="curve"/>
     </contour>
     <contour>
-      <point type="line" x="96" y="597" />
-      <point x="128" y="597" />
-      <point x="155" y="621" />
-      <point type="curve" x="155" y="653" />
-      <point x="155" y="685" />
-      <point x="128" y="709" />
-      <point type="curve" x="96" y="709" />
-      <point x="64" y="709" />
-      <point x="38" y="685" />
-      <point type="curve" x="38" y="653" />
-      <point x="38" y="621" />
-      <point x="64" y="597" />
-      <point type="curve" x="95" y="597" />
+      <point x="96" y="597" type="line"/>
+      <point x="128" y="597"/>
+      <point x="155" y="621"/>
+      <point x="155" y="653" type="curve"/>
+      <point x="155" y="685"/>
+      <point x="128" y="709"/>
+      <point x="96" y="709" type="curve"/>
+      <point x="64" y="709"/>
+      <point x="38" y="685"/>
+      <point x="38" y="653" type="curve"/>
+      <point x="38" y="621"/>
+      <point x="64" y="597"/>
+      <point x="95" y="597" type="curve"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>9b3838ccc42425bad1f2d82971f53cd2efb630c1af3532867d42c4a38ac98fdaf165e5314c14a05b33c7ccfa38ded02131066165e23d4d652307a886d15ae674</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -60,7 +51,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>9b3838ccc42425bad1f2d82971f53cd2efb630c1af3532867d42c4a38ac98fdaf165e5314c14a05b33c7ccfa38ded02131066165e23d4d652307a886d15ae674</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

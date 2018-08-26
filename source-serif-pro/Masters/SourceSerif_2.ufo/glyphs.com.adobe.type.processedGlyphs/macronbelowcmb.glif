@@ -1,27 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="macronbelowcmb">
-	<unicode hex="0331" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macronbelowcmb" format="2">
+  <unicode hex="0331"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="-120" y="-133" />
-      <point type="line" x="120" y="-133" />
-      <point type="line" x="120" y="-107" />
-      <point type="line" x="-120" y="-107" />
+      <point x="-120" y="-133" type="line" name="hintSet0000"/>
+      <point x="120" y="-133" type="line"/>
+      <point x="120" y="-107" type="line"/>
+      <point x="-120" y="-107" type="line"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w1000l-120-133l120-133l120-107l-120-107</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -34,7 +25,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w1000l-120-133l120-133l120-107l-120-107</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

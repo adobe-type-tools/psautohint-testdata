@@ -1,38 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="one.dnom">
-	<advance width="370" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.dnom" format="2">
+  <advance width="370"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="79" y="371" />
-      <point type="line" x="79" y="335" />
-      <point type="line" x="157" y="341" />
-      <point type="line" x="157" y="0" />
-      <point type="line" x="226" y="0" />
-      <point type="line" x="226" y="397" />
-      <point type="line" x="217" y="403" />
+      <point x="79" y="371" type="line" name="hintSet0000"/>
+      <point x="79" y="335" type="line"/>
+      <point x="157" y="341" type="line"/>
+      <point x="157" y="0" type="line"/>
+      <point x="226" y="0" type="line"/>
+      <point x="226" y="397" type="line"/>
+      <point x="217" y="403" type="line"/>
     </contour>
     <contour>
-      <point type="line" x="220" y="46" />
-      <point type="line" x="161" y="46" />
-      <point name="hintSet0009" type="line" x="66" y="29" />
-      <point type="line" x="66" y="0" />
-      <point name="hintSet0011" type="line" x="314" y="0" />
-      <point type="line" x="314" y="29" />
+      <point x="220" y="46" type="line"/>
+      <point x="161" y="46" type="line"/>
+      <point x="66" y="29" type="line" name="hintSet0009"/>
+      <point x="66" y="0" type="line"/>
+      <point x="314" y="0" type="line" name="hintSet0011"/>
+      <point x="314" y="29" type="line"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w370l79371l79335l157341l1570l2260l226397l217403l22046l16146l6629l660l3140l31429</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -63,7 +54,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w370l79371l79335l157341l1570l2260l226397l217403l22046l16146l6629l660l3140l31429</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

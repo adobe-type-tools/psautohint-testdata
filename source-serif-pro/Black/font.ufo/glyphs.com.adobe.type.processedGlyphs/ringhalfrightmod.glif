@@ -1,31 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="ringhalfrightmod">
-	<unicode hex="02BE" />
-  <advance width="180" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ringhalfrightmod" format="2">
+  <advance width="180"/>
+  <unicode hex="02BE"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="20" y="554" />
-      <point x="109" y="554" />
-      <point x="160" y="601" />
-      <point type="curve" x="160" y="674" />
-      <point x="160" y="747" />
-      <point x="109" y="794" />
-      <point type="curve" x="20" y="794" />
-      <point type="line" x="20" y="738" />
-      <point x="63" y="738" />
-      <point x="86" y="707" />
-      <point type="curve" x="86" y="674" />
-      <point x="86" y="643" />
-      <point x="63" y="610" />
-      <point type="curve" x="20" y="610" />
+      <point x="20" y="554" type="line" name="hintSet0000"/>
+      <point x="109" y="554"/>
+      <point x="160" y="601"/>
+      <point x="160" y="674" type="curve"/>
+      <point x="160" y="747"/>
+      <point x="109" y="794"/>
+      <point x="20" y="794" type="curve"/>
+      <point x="20" y="738" type="line"/>
+      <point x="63" y="738"/>
+      <point x="86" y="707"/>
+      <point x="86" y="674" type="curve"/>
+      <point x="86" y="643"/>
+      <point x="63" y="610"/>
+      <point x="20" y="610" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w180l20554109554160601c160674160747109794c20794l207386373886707c866748664363610c20610</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -39,6 +37,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w180l20554109554160601c160674160747109794c20794l207386373886707c866748664363610c20610</string>
       </dict>
     </dict>
   </lib>

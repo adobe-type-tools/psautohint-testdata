@@ -1,25 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="Pi">
-	<unicode hex="03A0" />
-  <advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Pi" format="2">
+  <advance width="600"/>
+  <unicode hex="03A0"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="92" y="0" />
-      <point type="line" x="124" y="0" />
-      <point type="line" x="124" y="632" />
-      <point type="line" x="476" y="632" />
-      <point type="line" x="476" y="0" />
-      <point type="line" x="508" y="0" />
-      <point type="line" x="508" y="660" />
-      <point type="line" x="92" y="660" />
+      <point x="92" y="0" type="line" name="hintSet0000"/>
+      <point x="124" y="0" type="line"/>
+      <point x="124" y="632" type="line"/>
+      <point x="476" y="632" type="line"/>
+      <point x="476" y="0" type="line"/>
+      <point x="508" y="0" type="line"/>
+      <point x="508" y="660" type="line"/>
+      <point x="92" y="660" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l920l1240l124632l476632l4760l5080l508660l92660</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -34,6 +32,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l920l1240l124632l476632l4760l5080l508660l92660</string>
       </dict>
     </dict>
   </lib>

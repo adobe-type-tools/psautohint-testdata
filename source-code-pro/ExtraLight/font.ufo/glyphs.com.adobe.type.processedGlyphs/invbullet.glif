@@ -1,35 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="invbullet">
-	<unicode hex="25D8" />
-  <advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="invbullet" format="2">
+  <advance width="600"/>
+  <unicode hex="25D8"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="160" y="122" />
-      <point type="line" x="440" y="122" />
-      <point type="line" x="440" y="402" />
-      <point type="line" x="160" y="402" />
+      <point x="160" y="122" type="line" name="hintSet0000"/>
+      <point x="440" y="122" type="line"/>
+      <point x="440" y="402" type="line"/>
+      <point x="160" y="402" type="line"/>
     </contour>
     <contour>
-      <point type="curve" x="300" y="134" />
-      <point x="226" y="134" />
-      <point x="172" y="188" />
-      <point type="curve" x="172" y="262" />
-      <point x="172" y="336" />
-      <point x="226" y="390" />
-      <point type="curve" x="300" y="390" />
-      <point x="374" y="390" />
-      <point x="428" y="336" />
-      <point type="curve" x="428" y="262" />
-      <point x="428" y="188" />
-      <point x="374" y="134" />
+      <point x="300" y="134" type="curve"/>
+      <point x="226" y="134"/>
+      <point x="172" y="188"/>
+      <point x="172" y="262" type="curve"/>
+      <point x="172" y="336"/>
+      <point x="226" y="390"/>
+      <point x="300" y="390" type="curve"/>
+      <point x="374" y="390"/>
+      <point x="428" y="336"/>
+      <point x="428" y="262" type="curve"/>
+      <point x="428" y="188"/>
+      <point x="374" y="134"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l160122l440122l440402l160402c300134226134172188c172262172336226390c300390374390428336c428262428188374134</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -44,6 +42,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l160122l440122l440402l160402c300134226134172188c172262172336226390c300390374390428336c428262428188374134</string>
       </dict>
     </dict>
   </lib>

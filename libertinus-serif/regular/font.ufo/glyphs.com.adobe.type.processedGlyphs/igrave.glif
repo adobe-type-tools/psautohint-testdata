@@ -1,72 +1,74 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="igrave">
-  <advance width="271" />
-  <unicode hex="00EC" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="igrave" format="2">
+  <advance width="271"/>
+  <unicode hex="00EC"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="curve" x="181" y="122" />
-      <point type="line" x="181" y="321" />
-      <point name="hintSet0002" x="181" y="371" />
-      <point x="185" y="435" />
-      <point type="curve" x="185" y="435" />
-      <point x="185" y="439" />
-      <point x="180" y="442" />
-      <point type="curve" x="172" y="442" />
-      <point x="144" y="431" />
-      <point x="104" y="422" />
-      <point type="curve" x="35" y="413" />
-      <point x="33" y="407" />
-      <point x="35" y="391" />
-      <point type="curve" x="37" y="385" />
-      <point x="92" y="380" />
-      <point x="102" y="374" />
-      <point type="curve" x="102" y="317" />
-      <point type="line" x="102" y="122" />
-      <point x="102" y="39" />
-      <point x="91" y="36" />
-      <point type="curve" x="30" y="31" />
-      <point x="24" y="25" />
-      <point x="24" y="4" />
-      <point type="curve" x="30" y="-2" />
-      <point name="flexCurve0010" x="63" y="-1" />
-      <point x="102" y="0" />
-      <point type="curve" x="142" y="0" />
-      <point x="182" y="0" />
-      <point x="220" y="-1" />
-      <point type="curve" x="253" y="-2" />
-      <point x="259" y="4" />
-      <point x="259" y="25" />
-      <point type="curve" x="253" y="31" />
-      <point name="hintSet0013" x="192" y="35" />
-      <point x="181" y="39" />
+      <point x="181" y="122" type="curve" name="hintSet0000"/>
+      <point x="181" y="321" type="line"/>
+      <point x="181" y="371" name="hintSet0002"/>
+      <point x="185" y="435"/>
+      <point x="185" y="435" type="curve"/>
+      <point x="185" y="439"/>
+      <point x="180" y="442"/>
+      <point x="172" y="442" type="curve"/>
+      <point x="144" y="431"/>
+      <point x="104" y="422"/>
+      <point x="35" y="413" type="curve"/>
+      <point x="33" y="407"/>
+      <point x="35" y="391"/>
+      <point x="37" y="385" type="curve"/>
+      <point x="92" y="380"/>
+      <point x="102" y="374"/>
+      <point x="102" y="317" type="curve"/>
+      <point x="102" y="122" type="line"/>
+      <point x="102" y="39"/>
+      <point x="91" y="36"/>
+      <point x="30" y="31" type="curve"/>
+      <point x="24" y="25"/>
+      <point x="24" y="4"/>
+      <point x="30" y="-2" type="curve"/>
+      <point x="63" y="-1" name="flexCurve0010"/>
+      <point x="102" y="0"/>
+      <point x="142" y="0" type="curve"/>
+      <point x="182" y="0"/>
+      <point x="220" y="-1"/>
+      <point x="253" y="-2" type="curve"/>
+      <point x="259" y="4"/>
+      <point x="259" y="25"/>
+      <point x="253" y="31" type="curve"/>
+      <point x="192" y="35" name="hintSet0013"/>
+      <point x="181" y="39"/>
     </contour>
     <contour>
-      <point type="line" x="99" y="671" />
-      <point x="95" y="672" />
-      <point x="89" y="673" />
-      <point type="curve" x="84" y="673" />
-      <point x="50" y="673" />
-      <point x="27" y="656" />
-      <point type="curve" x="19" y="650" />
-      <point type="line" x="17" y="639" />
-      <point type="line" x="131" y="530" />
-      <point x="147" y="515" />
-      <point x="154" y="510" />
-      <point type="curve" x="160" y="510" />
-      <point x="168" y="510" />
-      <point x="175" y="516" />
-      <point type="curve" x="175" y="521" />
-      <point x="175" y="528" />
-      <point x="174" y="535" />
-      <point type="curve" x="169" y="545" />
+      <point x="99" y="671" type="line"/>
+      <point x="95" y="672"/>
+      <point x="89" y="673"/>
+      <point x="84" y="673" type="curve"/>
+      <point x="50" y="673"/>
+      <point x="27" y="656"/>
+      <point x="19" y="650" type="curve"/>
+      <point x="17" y="639" type="line"/>
+      <point x="131" y="530" type="line"/>
+      <point x="147" y="515"/>
+      <point x="154" y="510"/>
+      <point x="160" y="510" type="curve"/>
+      <point x="168" y="510"/>
+      <point x="175" y="516"/>
+      <point x="175" y="521" type="curve"/>
+      <point x="175" y="528"/>
+      <point x="174" y="535"/>
+      <point x="169" y="545" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>7d7d9f3feca1d6e3fca5d08f58f942587e4f530112d37b190af2664a29dc2500ea070b1a2ccb9fb2b2c57b0f0f05b992f3da451da0bcd7a710c5c18a2309cd70</string>
+        <key>flexList</key>
+        <array>
+          <string>flexCurve0010</string>
+        </array>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -100,10 +102,8 @@
             </array>
           </dict>
         </array>
-        <key>flexList</key>
-        <array>
-          <string>flexCurve0010</string>
-        </array>
+        <key>id</key>
+        <string>7d7d9f3feca1d6e3fca5d08f58f942587e4f530112d37b190af2664a29dc2500ea070b1a2ccb9fb2b2c57b0f0f05b992f3da451da0bcd7a710c5c18a2309cd70</string>
       </dict>
     </dict>
   </lib>

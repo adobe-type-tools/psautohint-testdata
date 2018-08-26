@@ -1,28 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="divisionslash">
-	<unicode hex="2215" />
-  <advance width="140" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="divisionslash" format="2">
+  <advance width="140"/>
+  <unicode hex="2215"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="-148" y="-25" />
-      <point type="line" x="318" y="645" />
-      <point type="line" x="288" y="670" />
-      <point type="line" x="-178" y="0" />
+      <point x="-148" y="-25" type="line" name="hintSet0000"/>
+      <point x="318" y="645" type="line"/>
+      <point x="288" y="670" type="line"/>
+      <point x="-178" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w140l-148-25l318645l288670l-1780</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -36,7 +27,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w140l-148-25l318645l288670l-1780</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

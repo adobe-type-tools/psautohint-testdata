@@ -1,31 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="bracketrightwhite">
-	<unicode hex="27E7" />
-  <advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketrightwhite" format="2">
+  <advance width="600"/>
+  <unicode hex="27E7"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="101" y="-152" />
-      <point type="line" x="433" y="-152" />
-      <point type="line" x="433" y="708" />
-      <point type="line" x="101" y="708" />
-      <point type="line" x="101" y="645" />
-      <point name="hintSet0005" type="line" x="254" y="645" />
-      <point type="line" x="254" y="-89" />
-      <point name="hintSet0007" type="line" x="101" y="-89" />
+      <point x="101" y="-152" type="line" name="hintSet0000"/>
+      <point x="433" y="-152" type="line"/>
+      <point x="433" y="708" type="line"/>
+      <point x="101" y="708" type="line"/>
+      <point x="101" y="645" type="line"/>
+      <point x="254" y="645" type="line" name="hintSet0005"/>
+      <point x="254" y="-89" type="line"/>
+      <point x="101" y="-89" type="line" name="hintSet0007"/>
     </contour>
     <contour>
-      <point name="hintSet0008" type="line" x="318" y="-89" />
-      <point type="line" x="318" y="645" />
-      <point type="line" x="364" y="645" />
-      <point type="line" x="364" y="-89" />
+      <point x="318" y="-89" type="line" name="hintSet0008"/>
+      <point x="318" y="645" type="line"/>
+      <point x="364" y="645" type="line"/>
+      <point x="364" y="-89" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l101-152l433-152l433708l101708l101645l254645l254-89l101-89l318-89l318645l364645l364-89</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -73,6 +71,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l101-152l433-152l433708l101708l101645l254645l254-89l101-89l318-89l318645l364645l364-89</string>
       </dict>
     </dict>
   </lib>

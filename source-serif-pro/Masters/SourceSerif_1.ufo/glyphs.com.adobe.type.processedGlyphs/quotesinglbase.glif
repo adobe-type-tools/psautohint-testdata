@@ -1,46 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="quotesinglbase">
-	<unicode hex="201A" />
-  <advance width="212" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotesinglbase" format="2">
+  <advance width="212"/>
+  <unicode hex="201A"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="174" y="60" />
-      <point x="174" y="85" />
-      <point x="169" y="109" />
-      <point type="curve" x="161" y="130" />
-      <point x="145" y="145" />
-      <point x="127" y="150" />
-      <point type="curve" x="107" y="150" />
-      <point x="72" y="150" />
-      <point x="50" y="132" />
-      <point type="curve" x="50" y="92" />
-      <point x="50" y="67" />
-      <point x="59" y="44" />
-      <point type="curve" x="89" y="18" />
-      <point type="line" x="133" y="-23" />
-      <point type="line" x="125" y="13" />
-      <point x="100" y="-55" />
-      <point x="74" y="-85" />
-      <point type="curve" x="18" y="-129" />
-      <point type="line" x="37" y="-156" />
-      <point x="111" y="-107" />
-      <point x="174" y="-27" />
-      <point type="curve" x="174" y="61" />
+      <point x="174" y="60" type="line" name="hintSet0000"/>
+      <point x="174" y="85"/>
+      <point x="169" y="109"/>
+      <point x="161" y="130" type="curve"/>
+      <point x="145" y="145"/>
+      <point x="127" y="150"/>
+      <point x="107" y="150" type="curve"/>
+      <point x="72" y="150"/>
+      <point x="50" y="132"/>
+      <point x="50" y="92" type="curve"/>
+      <point x="50" y="67"/>
+      <point x="59" y="44"/>
+      <point x="89" y="18" type="curve"/>
+      <point x="133" y="-23" type="line"/>
+      <point x="125" y="13" type="line"/>
+      <point x="100" y="-55"/>
+      <point x="74" y="-85"/>
+      <point x="18" y="-129" type="curve"/>
+      <point x="37" y="-156" type="line"/>
+      <point x="111" y="-107"/>
+      <point x="174" y="-27"/>
+      <point x="174" y="61" type="curve"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>7593dff480e9203e102c7eabad6e735b5808ec35a36194914a72b095315d0c26b8ea86e3d3e765668ce7ee16d0212996f127e6df4befe81b17eb1feacc326637</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -53,7 +44,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>7593dff480e9203e102c7eabad6e735b5808ec35a36194914a72b095315d0c26b8ea86e3d3e765668ce7ee16d0212996f127e6df4befe81b17eb1feacc326637</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

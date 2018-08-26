@@ -1,36 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="i.sups">
-	<advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="i.sups" format="2">
+  <advance width="600"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="329" y="406" />
-      <point type="line" x="369" y="406" />
-      <point type="line" x="369" y="723" />
-      <point type="line" x="179" y="723" />
-      <point type="line" x="179" y="690" />
-      <point type="line" x="329" y="690" />
+      <point x="329" y="406" type="line" name="hintSet0000"/>
+      <point x="369" y="406" type="line"/>
+      <point x="369" y="723" type="line"/>
+      <point x="179" y="723" type="line"/>
+      <point x="179" y="690" type="line"/>
+      <point x="329" y="690" type="line"/>
     </contour>
     <contour>
-      <point name="hintSet0006" type="curve" x="343" y="797" />
-      <point x="364" y="797" />
-      <point x="380" y="810" />
-      <point type="curve" x="380" y="832" />
-      <point x="380" y="854" />
-      <point x="364" y="869" />
-      <point type="curve" x="343" y="869" />
-      <point x="322" y="869" />
-      <point x="306" y="854" />
-      <point type="curve" x="306" y="832" />
-      <point x="306" y="810" />
-      <point x="322" y="797" />
+      <point x="343" y="797" type="curve" name="hintSet0006"/>
+      <point x="364" y="797"/>
+      <point x="380" y="810"/>
+      <point x="380" y="832" type="curve"/>
+      <point x="380" y="854"/>
+      <point x="364" y="869"/>
+      <point x="343" y="869" type="curve"/>
+      <point x="322" y="869"/>
+      <point x="306" y="854"/>
+      <point x="306" y="832" type="curve"/>
+      <point x="306" y="810"/>
+      <point x="322" y="797"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l329406l369406l369723l179723l179690l329690c343797364797380810c380832380854364869c343869322869306854c306832306810322797</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -53,6 +51,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l329406l369406l369723l179723l179690l329690c343797364797380810c380832380854364869c343869322869306854c306832306810322797</string>
       </dict>
     </dict>
   </lib>

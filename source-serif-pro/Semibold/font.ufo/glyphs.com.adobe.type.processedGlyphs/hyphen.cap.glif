@@ -1,20 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="hyphen.cap">
-	<advance width="325" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="hyphen.cap" format="2">
+  <advance width="325"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="40" y="267" />
-      <point type="line" x="285" y="267" />
-      <point type="line" x="285" y="344" />
-      <point type="line" x="40" y="344" />
+      <point x="40" y="267" type="line" name="hintSet0000"/>
+      <point x="285" y="267" type="line"/>
+      <point x="285" y="344" type="line"/>
+      <point x="40" y="344" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w325l40267l285267l285344l40344</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -27,6 +25,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w325l40267l285267l285344l40344</string>
       </dict>
     </dict>
   </lib>

@@ -1,36 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="commaturnedmod">
-  <advance width="600" />
-  <unicode hex="02BB" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commaturnedmod" format="2">
+  <advance width="600"/>
+  <unicode hex="02BB"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="curve" x="300" y="319" />
-      <point name="hintSet0001" x="350" y="319" />
-      <point x="385" y="355" />
-      <point type="curve" x="385" y="409" />
-      <point x="385" y="457" />
-      <point x="352" y="490" />
-      <point type="curve" x="304" y="490" />
-      <point name="hintSet0003" x="297" y="490" />
-      <point x="289" y="489" />
-      <point type="curve" x="282" y="486" />
-      <point x="286" y="552" />
-      <point x="324" y="601" />
-      <point type="curve" x="389" y="635" />
-      <point type="line" x="356" y="698" />
-      <point x="252" y="648" />
-      <point x="196" y="564" />
-      <point type="curve" x="196" y="460" />
-      <point x="196" y="372" />
-      <point x="237" y="319" />
+      <point x="300" y="319" type="curve" name="hintSet0000"/>
+      <point x="350" y="319" name="hintSet0001"/>
+      <point x="385" y="355"/>
+      <point x="385" y="409" type="curve"/>
+      <point x="385" y="457"/>
+      <point x="352" y="490"/>
+      <point x="304" y="490" type="curve"/>
+      <point x="297" y="490" name="hintSet0003"/>
+      <point x="289" y="489"/>
+      <point x="282" y="486" type="curve"/>
+      <point x="286" y="552"/>
+      <point x="324" y="601"/>
+      <point x="389" y="635" type="curve"/>
+      <point x="356" y="698" type="line"/>
+      <point x="252" y="648"/>
+      <point x="196" y="564"/>
+      <point x="196" y="460" type="curve"/>
+      <point x="196" y="372"/>
+      <point x="237" y="319"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600c300319350319385355c385409385457352490c304490297490289489c282486286552324601c389635l356698252648196564c196460196372237319</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -61,6 +59,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600c300319350319385355c385409385457352490c304490297490289489c282486286552324601c389635l356698252648196564c196460196372237319</string>
       </dict>
     </dict>
   </lib>

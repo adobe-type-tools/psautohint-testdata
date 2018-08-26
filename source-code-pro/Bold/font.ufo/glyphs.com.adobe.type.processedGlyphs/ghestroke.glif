@@ -1,31 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="ghestroke">
-  <advance width="600" />
-  <unicode hex="0493" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ghestroke" format="2">
+  <advance width="600"/>
+  <unicode hex="0493"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="130" y="0" />
-      <point type="line" x="277" y="0" />
-      <point type="line" x="277" y="192" />
-      <point type="line" x="429" y="192" />
-      <point type="line" x="429" y="267" />
-      <point type="line" x="277" y="267" />
-      <point type="line" x="277" y="381" />
-      <point type="line" x="527" y="381" />
-      <point type="line" x="527" y="496" />
-      <point type="line" x="130" y="496" />
-      <point name="hintSet0010" type="line" x="130" y="266" />
-      <point type="line" x="47" y="261" />
-      <point name="hintSet0012" type="line" x="47" y="192" />
-      <point type="line" x="130" y="192" />
+      <point x="130" y="0" type="line" name="hintSet0000"/>
+      <point x="277" y="0" type="line"/>
+      <point x="277" y="192" type="line"/>
+      <point x="429" y="192" type="line"/>
+      <point x="429" y="267" type="line"/>
+      <point x="277" y="267" type="line"/>
+      <point x="277" y="381" type="line"/>
+      <point x="527" y="381" type="line"/>
+      <point x="527" y="496" type="line"/>
+      <point x="130" y="496" type="line"/>
+      <point x="130" y="266" type="line" name="hintSet0010"/>
+      <point x="47" y="261" type="line"/>
+      <point x="47" y="192" type="line" name="hintSet0012"/>
+      <point x="130" y="192" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l1300l2770l277192l429192l429267l277267l277381l527381l527496l130496l130266l47261l47192l130192</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -62,6 +60,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l1300l2770l277192l429192l429267l277267l277381l527381l527496l130496l130266l47261l47192l130192</string>
       </dict>
     </dict>
   </lib>

@@ -1,30 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="brevebelowcmb">
-	<unicode hex="032E" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevebelowcmb" format="2">
+  <unicode hex="032E"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="-166" y="-84" />
-      <point x="-162" y="-149" />
-      <point x="-124" y="-243" />
-      <point type="curve" x="0" y="-243" />
-      <point x="124" y="-243" />
-      <point x="162" y="-149" />
-      <point type="curve" x="166" y="-84" />
-      <point type="line" x="110" y="-68" />
-      <point x="91" y="-114" />
-      <point x="54" y="-153" />
-      <point type="curve" x="0" y="-153" />
-      <point x="-54" y="-153" />
-      <point x="-89" y="-116" />
-      <point type="curve" x="-110" y="-68" />
+      <point x="-166" y="-84" type="line" name="hintSet0000"/>
+      <point x="-162" y="-149"/>
+      <point x="-124" y="-243"/>
+      <point x="0" y="-243" type="curve"/>
+      <point x="124" y="-243"/>
+      <point x="162" y="-149"/>
+      <point x="166" y="-84" type="curve"/>
+      <point x="110" y="-68" type="line"/>
+      <point x="91" y="-114"/>
+      <point x="54" y="-153"/>
+      <point x="0" y="-153" type="curve"/>
+      <point x="-54" y="-153"/>
+      <point x="-89" y="-116"/>
+      <point x="-110" y="-68" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w1000l-166-84-162-149-124-243c0-243124-243162-149c166-84l110-6891-11454-153c0-153-54-153-89-116c-110-68</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -37,6 +35,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w1000l-166-84-162-149-124-243c0-243124-243162-149c166-84l110-6891-11454-153c0-153-54-153-89-116c-110-68</string>
       </dict>
     </dict>
   </lib>

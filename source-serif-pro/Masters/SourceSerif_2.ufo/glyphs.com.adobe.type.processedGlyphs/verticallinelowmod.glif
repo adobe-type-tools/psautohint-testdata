@@ -1,28 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="verticallinelowmod">
-	<unicode hex="02CC" />
-  <advance width="88" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="verticallinelowmod" format="2">
+  <advance width="88"/>
+  <unicode hex="02CC"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="28" y="-264" />
-      <point type="line" x="60" y="-264" />
-      <point type="line" x="54" y="-76" />
-      <point type="line" x="34" y="-76" />
+      <point x="28" y="-264" type="line" name="hintSet0000"/>
+      <point x="60" y="-264" type="line"/>
+      <point x="54" y="-76" type="line"/>
+      <point x="34" y="-76" type="line"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w88l28-264l60-264l54-76l34-76</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -35,7 +26,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w88l28-264l60-264l54-76l34-76</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

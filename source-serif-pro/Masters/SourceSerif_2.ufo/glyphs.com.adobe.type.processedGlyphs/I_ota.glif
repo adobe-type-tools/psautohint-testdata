@@ -1,56 +1,47 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="Iota">
-	<unicode hex="0399" />
-  <advance width="364" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iota" format="2">
+  <advance width="364"/>
+  <unicode hex="0399"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="175" y="27" />
-      <point type="line" x="58" y="20" />
-      <point type="line" x="58" y="0" />
-      <point type="line" x="306" y="0" />
-      <point type="line" x="306" y="20" />
-      <point type="line" x="189" y="27" />
+      <point x="175" y="27" type="line" name="hintSet0000"/>
+      <point x="58" y="20" type="line"/>
+      <point x="58" y="0" type="line"/>
+      <point x="306" y="0" type="line"/>
+      <point x="306" y="20" type="line"/>
+      <point x="189" y="27" type="line"/>
     </contour>
     <contour>
-      <point type="line" x="175" y="650" />
-      <point type="line" x="189" y="650" />
-      <point type="line" x="306" y="657" />
-      <point type="line" x="306" y="677" />
-      <point type="line" x="58" y="677" />
-      <point type="line" x="58" y="657" />
+      <point x="175" y="650" type="line"/>
+      <point x="189" y="650" type="line"/>
+      <point x="306" y="657" type="line"/>
+      <point x="306" y="677" type="line"/>
+      <point x="58" y="677" type="line"/>
+      <point x="58" y="657" type="line"/>
     </contour>
     <contour>
-      <point type="line" x="167" y="310" />
-      <point x="167" y="206" />
-      <point x="167" y="102" />
-      <point type="curve" x="165" y="0" />
-      <point type="line" x="199" y="0" />
-      <point x="197" y="102" />
-      <point x="197" y="206" />
-      <point type="curve" x="197" y="310" />
-      <point type="line" x="197" y="367" />
-      <point x="197" y="471" />
-      <point x="197" y="575" />
-      <point type="curve" x="199" y="677" />
-      <point type="line" x="165" y="677" />
-      <point x="167" y="575" />
-      <point x="167" y="471" />
-      <point type="curve" x="167" y="367" />
+      <point x="167" y="310" type="line"/>
+      <point x="167" y="206"/>
+      <point x="167" y="102"/>
+      <point x="165" y="0" type="curve"/>
+      <point x="199" y="0" type="line"/>
+      <point x="197" y="102"/>
+      <point x="197" y="206"/>
+      <point x="197" y="310" type="curve"/>
+      <point x="197" y="367" type="line"/>
+      <point x="197" y="471"/>
+      <point x="197" y="575"/>
+      <point x="199" y="677" type="curve"/>
+      <point x="165" y="677" type="line"/>
+      <point x="167" y="575"/>
+      <point x="167" y="471"/>
+      <point x="167" y="367" type="curve"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>dc1bd3de92831c88aa27b8d505804bfd9e78aaf868561649c6e6f9e9710772d6611518dcede21155f3f56538a00b4eda4607ec750f7dec32b3d9e039cc511563</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -64,7 +55,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>dc1bd3de92831c88aa27b8d505804bfd9e78aaf868561649c6e6f9e9710772d6611518dcede21155f3f56538a00b4eda4607ec750f7dec32b3d9e039cc511563</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

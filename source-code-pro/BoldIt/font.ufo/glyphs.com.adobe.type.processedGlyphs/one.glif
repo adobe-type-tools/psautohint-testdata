@@ -1,30 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="one">
-	<unicode hex="0031" />
-  <advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one" format="2">
+  <advance width="600"/>
+  <unicode hex="0031"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="21" y="0" />
-      <point type="line" x="479" y="0" />
-      <point type="line" x="501" y="110" />
-      <point type="line" x="353" y="110" />
-      <point type="line" x="458" y="635" />
-      <point type="line" x="357" y="635" />
-      <point name="hintSet0006" x="308" y="606" />
-      <point x="253" y="590" />
-      <point type="curve" x="170" y="579" />
-      <point name="hintSet0007" type="line" x="153" y="493" />
-      <point type="line" x="293" y="493" />
-      <point type="line" x="216" y="110" />
-      <point type="line" x="44" y="110" />
+      <point x="21" y="0" type="line" name="hintSet0000"/>
+      <point x="479" y="0" type="line"/>
+      <point x="501" y="110" type="line"/>
+      <point x="353" y="110" type="line"/>
+      <point x="458" y="635" type="line"/>
+      <point x="357" y="635" type="line"/>
+      <point x="308" y="606" name="hintSet0006"/>
+      <point x="253" y="590"/>
+      <point x="170" y="579" type="curve"/>
+      <point x="153" y="493" type="line" name="hintSet0007"/>
+      <point x="293" y="493" type="line"/>
+      <point x="216" y="110" type="line"/>
+      <point x="44" y="110" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l210l4790l501110l353110l458635l357635308606253590c170579l153493l293493l216110l44110</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -58,6 +56,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l210l4790l501110l353110l458635l357635308606253590c170579l153493l293493l216110l44110</string>
       </dict>
     </dict>
   </lib>

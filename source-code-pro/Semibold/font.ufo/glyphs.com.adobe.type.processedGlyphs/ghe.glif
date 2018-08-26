@@ -1,23 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="ghe">
-	<unicode hex="0433" />
-  <advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ghe" format="2">
+  <advance width="600"/>
+  <unicode hex="0433"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="130" y="0" />
-      <point type="line" x="246" y="0" />
-      <point type="line" x="246" y="400" />
-      <point type="line" x="525" y="400" />
-      <point type="line" x="525" y="491" />
-      <point type="line" x="130" y="491" />
+      <point x="130" y="0" type="line" name="hintSet0000"/>
+      <point x="246" y="0" type="line"/>
+      <point x="246" y="400" type="line"/>
+      <point x="525" y="400" type="line"/>
+      <point x="525" y="491" type="line"/>
+      <point x="130" y="491" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l1300l2460l246400l525400l525491l130491</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -31,6 +29,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l1300l2460l246400l525400l525491l130491</string>
       </dict>
     </dict>
   </lib>

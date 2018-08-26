@@ -1,55 +1,58 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="I">
-  <advance width="297" />
-  <unicode hex="0049" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="I" format="2">
+  <advance width="297"/>
+  <unicode hex="0049"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="curve" x="191" y="122" />
-      <point type="line" x="191" y="523" />
-      <point x="191" y="606" />
-      <point x="208" y="611" />
-      <point type="curve" x="278" y="614" />
-      <point x="284" y="620" />
-      <point x="284" y="641" />
-      <point type="curve" x="278" y="647" />
-      <point name="flexCurve0004" x="234" y="646" />
-      <point x="187" y="645" />
-      <point type="curve" x="148" y="645" />
-      <point x="115" y="645" />
-      <point x="66" y="646" />
-      <point type="curve" x="19" y="647" />
-      <point x="13" y="641" />
-      <point x="13" y="620" />
-      <point type="curve" x="19" y="614" />
-      <point x="89" y="611" />
-      <point x="106" y="606" />
-      <point type="curve" x="106" y="523" />
-      <point type="line" x="106" y="122" />
-      <point x="106" y="39" />
-      <point x="89" y="34" />
-      <point type="curve" x="19" y="31" />
-      <point x="13" y="25" />
-      <point x="13" y="4" />
-      <point type="curve" x="19" y="-2" />
-      <point name="flexCurve0011" x="64" y="-1" />
-      <point x="113" y="0" />
-      <point type="curve" x="149" y="0" />
-      <point x="185" y="0" />
-      <point x="233" y="-1" />
-      <point type="curve" x="278" y="-2" />
-      <point x="284" y="4" />
-      <point x="284" y="25" />
-      <point type="curve" x="278" y="31" />
-      <point x="208" y="34" />
-      <point x="191" y="39" />
+      <point x="191" y="122" type="curve" name="hintSet0000"/>
+      <point x="191" y="523" type="line"/>
+      <point x="191" y="606"/>
+      <point x="208" y="611"/>
+      <point x="278" y="614" type="curve"/>
+      <point x="284" y="620"/>
+      <point x="284" y="641"/>
+      <point x="278" y="647" type="curve"/>
+      <point x="234" y="646" name="flexCurve0004"/>
+      <point x="187" y="645"/>
+      <point x="148" y="645" type="curve"/>
+      <point x="115" y="645"/>
+      <point x="66" y="646"/>
+      <point x="19" y="647" type="curve"/>
+      <point x="13" y="641"/>
+      <point x="13" y="620"/>
+      <point x="19" y="614" type="curve"/>
+      <point x="89" y="611"/>
+      <point x="106" y="606"/>
+      <point x="106" y="523" type="curve"/>
+      <point x="106" y="122" type="line"/>
+      <point x="106" y="39"/>
+      <point x="89" y="34"/>
+      <point x="19" y="31" type="curve"/>
+      <point x="13" y="25"/>
+      <point x="13" y="4"/>
+      <point x="19" y="-2" type="curve"/>
+      <point x="64" y="-1" name="flexCurve0011"/>
+      <point x="113" y="0"/>
+      <point x="149" y="0" type="curve"/>
+      <point x="185" y="0"/>
+      <point x="233" y="-1"/>
+      <point x="278" y="-2" type="curve"/>
+      <point x="284" y="4"/>
+      <point x="284" y="25"/>
+      <point x="278" y="31" type="curve"/>
+      <point x="208" y="34"/>
+      <point x="191" y="39"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>5b4bb52e59d20b0113de38274497b08a8b1f3f8bd33c082373bcb94da2a3e6a354faca22b095f01dc176c70e95b18f98b897d68c2978e83f1f977003945cec54</string>
+        <key>flexList</key>
+        <array>
+          <string>flexCurve0004</string>
+          <string>flexCurve0011</string>
+        </array>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -63,11 +66,8 @@
             </array>
           </dict>
         </array>
-        <key>flexList</key>
-        <array>
-          <string>flexCurve0004</string>
-          <string>flexCurve0011</string>
-        </array>
+        <key>id</key>
+        <string>5b4bb52e59d20b0113de38274497b08a8b1f3f8bd33c082373bcb94da2a3e6a354faca22b095f01dc176c70e95b18f98b897d68c2978e83f1f977003945cec54</string>
       </dict>
     </dict>
   </lib>

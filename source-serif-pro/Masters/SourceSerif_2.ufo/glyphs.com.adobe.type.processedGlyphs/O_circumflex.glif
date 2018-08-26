@@ -1,62 +1,53 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="Ocircumflex">
-	<unicode hex="00D4" />
-  <advance width="706" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ocircumflex" format="2">
+  <advance width="706"/>
+  <unicode hex="00D4"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="95" y="338" />
-      <point x="95" y="518" />
-      <point x="193" y="668" />
-      <point type="curve" x="353" y="668" />
-      <point x="513" y="668" />
-      <point x="611" y="518" />
-      <point type="curve" x="611" y="338" />
-      <point x="611" y="158" />
-      <point x="513" y="9" />
-      <point type="curve" x="353" y="9" />
-      <point x="193" y="9" />
-      <point x="95" y="158" />
-      <point type="curve" x="95" y="337" />
+      <point x="95" y="338" type="line" name="hintSet0000"/>
+      <point x="95" y="518"/>
+      <point x="193" y="668"/>
+      <point x="353" y="668" type="curve"/>
+      <point x="513" y="668"/>
+      <point x="611" y="518"/>
+      <point x="611" y="338" type="curve"/>
+      <point x="611" y="158"/>
+      <point x="513" y="9"/>
+      <point x="353" y="9" type="curve"/>
+      <point x="193" y="9"/>
+      <point x="95" y="158"/>
+      <point x="95" y="337" type="curve"/>
     </contour>
     <contour>
-      <point type="line" x="353" y="690" />
-      <point x="188" y="690" />
-      <point x="63" y="550" />
-      <point type="curve" x="63" y="338" />
-      <point x="63" y="126" />
-      <point x="188" y="-13" />
-      <point type="curve" x="353" y="-13" />
-      <point x="518" y="-13" />
-      <point x="643" y="126" />
-      <point type="curve" x="643" y="338" />
-      <point x="643" y="550" />
-      <point x="518" y="690" />
-      <point type="curve" x="354" y="690" />
+      <point x="353" y="690" type="line"/>
+      <point x="188" y="690"/>
+      <point x="63" y="550"/>
+      <point x="63" y="338" type="curve"/>
+      <point x="63" y="126"/>
+      <point x="188" y="-13"/>
+      <point x="353" y="-13" type="curve"/>
+      <point x="518" y="-13"/>
+      <point x="643" y="126"/>
+      <point x="643" y="338" type="curve"/>
+      <point x="643" y="550"/>
+      <point x="518" y="690"/>
+      <point x="354" y="690" type="curve"/>
     </contour>
     <contour>
-      <point type="line" x="361" y="842" />
-      <point type="line" x="347" y="842" />
-      <point type="line" x="217" y="730" />
-      <point type="line" x="225" y="720" />
-      <point type="line" x="363" y="811" />
-      <point type="line" x="345" y="811" />
-      <point type="line" x="483" y="720" />
-      <point type="line" x="491" y="730" />
+      <point x="361" y="842" type="line"/>
+      <point x="347" y="842" type="line"/>
+      <point x="217" y="730" type="line"/>
+      <point x="225" y="720" type="line"/>
+      <point x="363" y="811" type="line"/>
+      <point x="345" y="811" type="line"/>
+      <point x="483" y="720" type="line"/>
+      <point x="491" y="730" type="line"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>53b9f25fa45b261f297bb970346267ac0c97921c908a38375b4d2792e5c4e9e6829766e50a750045b76a12e9addd14e50535e3ba594298b869ee6ef597e183f8</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -71,7 +62,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>53b9f25fa45b261f297bb970346267ac0c97921c908a38375b4d2792e5c4e9e6829766e50a750045b76a12e9addd14e50535e3ba594298b869ee6ef597e183f8</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

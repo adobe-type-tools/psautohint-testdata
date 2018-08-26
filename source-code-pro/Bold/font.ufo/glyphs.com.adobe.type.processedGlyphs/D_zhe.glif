@@ -1,29 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="Dzhe">
-  <advance width="600" />
-  <unicode hex="040F" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Dzhe" format="2">
+  <advance width="600"/>
+  <unicode hex="040F"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="63" y="0" />
-      <point name="hintSet0001" type="line" x="240" y="0" />
-      <point type="line" x="240" y="-188" />
-      <point type="line" x="362" y="-188" />
-      <point type="line" x="373" y="0" />
-      <point name="hintSet0005" type="line" x="537" y="0" />
-      <point type="line" x="537" y="652" />
-      <point type="line" x="390" y="652" />
-      <point type="line" x="390" y="124" />
-      <point type="line" x="210" y="124" />
-      <point type="line" x="210" y="652" />
-      <point type="line" x="63" y="652" />
+      <point x="63" y="0" type="line" name="hintSet0000"/>
+      <point x="240" y="0" type="line" name="hintSet0001"/>
+      <point x="240" y="-188" type="line"/>
+      <point x="362" y="-188" type="line"/>
+      <point x="373" y="0" type="line"/>
+      <point x="537" y="0" type="line" name="hintSet0005"/>
+      <point x="537" y="652" type="line"/>
+      <point x="390" y="652" type="line"/>
+      <point x="390" y="124" type="line"/>
+      <point x="210" y="124" type="line"/>
+      <point x="210" y="652" type="line"/>
+      <point x="63" y="652" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l630l2400l240-188l362-188l3730l5370l537652l390652l390124l210124l210652l63652</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -61,6 +59,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l630l2400l240-188l362-188l3730l5370l537652l390652l390124l210124l210652l63652</string>
       </dict>
     </dict>
   </lib>

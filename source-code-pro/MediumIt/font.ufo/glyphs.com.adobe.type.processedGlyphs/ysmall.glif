@@ -1,33 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="ysmall">
-	<unicode hex="028F" />
-  <advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ysmall" format="2">
+  <advance width="600"/>
+  <unicode hex="028F"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="193" y="0" />
-      <point type="line" x="289" y="0" />
-      <point type="line" x="320" y="160" />
-      <point type="line" x="572" y="489" />
-      <point type="line" x="472" y="489" />
-      <point type="line" x="373" y="359" />
-      <point x="348" y="320" />
-      <point x="316" y="285" />
-      <point type="curve" x="291" y="245" />
-      <point type="line" x="287" y="245" />
-      <point x="277" y="285" />
-      <point x="257" y="320" />
-      <point type="curve" x="248" y="359" />
-      <point type="line" x="200" y="489" />
-      <point type="line" x="98" y="489" />
-      <point type="line" x="224" y="160" />
+      <point x="193" y="0" type="line" name="hintSet0000"/>
+      <point x="289" y="0" type="line"/>
+      <point x="320" y="160" type="line"/>
+      <point x="572" y="489" type="line"/>
+      <point x="472" y="489" type="line"/>
+      <point x="373" y="359" type="line"/>
+      <point x="348" y="320"/>
+      <point x="316" y="285"/>
+      <point x="291" y="245" type="curve"/>
+      <point x="287" y="245" type="line"/>
+      <point x="277" y="285"/>
+      <point x="257" y="320"/>
+      <point x="248" y="359" type="curve"/>
+      <point x="200" y="489" type="line"/>
+      <point x="98" y="489" type="line"/>
+      <point x="224" y="160" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l1930l2890l320160l572489l472489l373359348320316285c291245l287245277285257320c248359l200489l98489l224160</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -41,6 +39,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l1930l2890l320160l572489l472489l373359348320316285c291245l287245277285257320c248359l200489l98489l224160</string>
       </dict>
     </dict>
   </lib>

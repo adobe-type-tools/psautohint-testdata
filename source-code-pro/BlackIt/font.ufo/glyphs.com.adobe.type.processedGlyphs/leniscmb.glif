@@ -1,30 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="leniscmb">
-	<advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="leniscmb" format="2">
+  <advance width="600"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="299" y="566" />
-      <point x="381" y="570" />
-      <point x="458" y="602" />
-      <point type="curve" x="472" y="674" />
-      <point x="486" y="748" />
-      <point x="451" y="802" />
-      <point type="curve" x="305" y="806" />
-      <point name="hintSet0003" type="line" x="275" y="702" />
-      <point x="332" y="698" />
-      <point x="350" y="684" />
-      <point type="curve" x="345" y="662" />
-      <point x="341" y="642" />
-      <point x="322" y="635" />
-      <point type="curve" x="300" y="632" />
+      <point x="299" y="566" type="line" name="hintSet0000"/>
+      <point x="381" y="570"/>
+      <point x="458" y="602"/>
+      <point x="472" y="674" type="curve"/>
+      <point x="486" y="748"/>
+      <point x="451" y="802"/>
+      <point x="305" y="806" type="curve"/>
+      <point x="275" y="702" type="line" name="hintSet0003"/>
+      <point x="332" y="698"/>
+      <point x="350" y="684"/>
+      <point x="345" y="662" type="curve"/>
+      <point x="341" y="642"/>
+      <point x="322" y="635"/>
+      <point x="300" y="632" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l299566381570458602c472674486748451802c305806l275702332698350684c345662341642322635c300632</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -48,6 +46,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l299566381570458602c472674486748451802c305806l275702332698350684c345662341642322635c300632</string>
       </dict>
     </dict>
   </lib>

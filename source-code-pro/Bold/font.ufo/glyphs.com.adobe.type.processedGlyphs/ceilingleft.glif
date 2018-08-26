@@ -1,23 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="ceilingleft">
-	<unicode hex="231C" />
-  <advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ceilingleft" format="2">
+  <advance width="600"/>
+  <unicode hex="231C"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="200" y="0" />
-      <point type="line" x="312" y="0" />
-      <point type="line" x="312" y="626" />
-      <point type="line" x="496" y="626" />
-      <point type="line" x="496" y="704" />
-      <point type="line" x="200" y="704" />
+      <point x="200" y="0" type="line" name="hintSet0000"/>
+      <point x="312" y="0" type="line"/>
+      <point x="312" y="626" type="line"/>
+      <point x="496" y="626" type="line"/>
+      <point x="496" y="704" type="line"/>
+      <point x="200" y="704" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l2000l3120l312626l496626l496704l200704</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -31,6 +29,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l2000l3120l312626l496626l496704l200704</string>
       </dict>
     </dict>
   </lib>

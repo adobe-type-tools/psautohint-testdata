@@ -1,62 +1,53 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="iotatonos">
-	<unicode hex="03AF" />
-  <advance width="285" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iotatonos" format="2">
+  <advance width="285"/>
+  <unicode hex="03AF"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="191" y="-13" />
-      <point x="226" y="-13" />
-      <point x="254" y="10" />
-      <point type="curve" x="270" y="39" />
-      <point type="line" x="262" y="64" />
-      <point x="248" y="59" />
-      <point x="232" y="55" />
-      <point type="curve" x="218" y="55" />
-      <point x="187" y="55" />
-      <point x="172" y="71" />
-      <point type="curve" x="170" y="135" />
-      <point name="hintSet0005" x="169" y="204" />
-      <point x="177" y="278" />
-      <point type="curve" x="193" y="477" />
-      <point type="line" x="183" y="487" />
-      <point type="line" x="100" y="469" />
-      <point type="line" x="102" y="125" />
-      <point name="hintSet0009" x="103" y="29" />
-      <point x="130" y="-13" />
-      <point type="curve" x="190" y="-13" />
+      <point x="191" y="-13" type="line" name="hintSet0000"/>
+      <point x="226" y="-13"/>
+      <point x="254" y="10"/>
+      <point x="270" y="39" type="curve"/>
+      <point x="262" y="64" type="line"/>
+      <point x="248" y="59"/>
+      <point x="232" y="55"/>
+      <point x="218" y="55" type="curve"/>
+      <point x="187" y="55"/>
+      <point x="172" y="71"/>
+      <point x="170" y="135" type="curve"/>
+      <point x="169" y="204" name="hintSet0005"/>
+      <point x="177" y="278"/>
+      <point x="193" y="477" type="curve"/>
+      <point x="183" y="487" type="line"/>
+      <point x="100" y="469" type="line"/>
+      <point x="102" y="125" type="line"/>
+      <point x="103" y="29" name="hintSet0009"/>
+      <point x="130" y="-13"/>
+      <point x="190" y="-13" type="curve"/>
     </contour>
     <contour>
-      <point type="curve" x="114" y="558" />
-      <point type="line" x="149" y="542" />
-      <point x="177" y="585" />
-      <point x="204" y="627" />
-      <point type="curve" x="212" y="641" />
-      <point x="244" y="693" />
-      <point x="249" y="709" />
-      <point type="curve" x="249" y="725" />
-      <point x="249" y="748" />
-      <point x="234" y="759" />
-      <point type="curve" x="216" y="759" />
-      <point x="195" y="759" />
-      <point x="178" y="747" />
-      <point type="curve" x="152" y="671" />
-      <point x="147" y="658" />
-      <point x="131" y="608" />
+      <point x="114" y="558" type="curve"/>
+      <point x="149" y="542" type="line"/>
+      <point x="177" y="585"/>
+      <point x="204" y="627"/>
+      <point x="212" y="641" type="curve"/>
+      <point x="244" y="693"/>
+      <point x="249" y="709"/>
+      <point x="249" y="725" type="curve"/>
+      <point x="249" y="748"/>
+      <point x="234" y="759"/>
+      <point x="216" y="759" type="curve"/>
+      <point x="195" y="759"/>
+      <point x="178" y="747"/>
+      <point x="152" y="671" type="curve"/>
+      <point x="147" y="658"/>
+      <point x="131" y="608"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>728655a6b2516fbe12f304c91c836a20c6df4cfea6417da1e7748f8e1cfd38c637e424e9373aa98134609796c3973ae8f60d1c56648a1e374ddeceb70fbd3580</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -96,7 +87,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>728655a6b2516fbe12f304c91c836a20c6df4cfea6417da1e7748f8e1cfd38c637e424e9373aa98134609796c3973ae8f60d1c56648a1e374ddeceb70fbd3580</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

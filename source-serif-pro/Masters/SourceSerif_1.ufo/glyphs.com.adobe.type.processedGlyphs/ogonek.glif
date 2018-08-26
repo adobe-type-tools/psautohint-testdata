@@ -1,45 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="ogonek">
-	<unicode hex="02DB" />
-  <advance width="400" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="ogonek" format="2">
+  <advance width="400"/>
+  <unicode hex="02DB"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="99" y="-132" />
-      <point x="99" y="-187" />
-      <point x="138" y="-220" />
-      <point type="curve" x="192" y="-220" />
-      <point x="227" y="-220" />
-      <point x="270" y="-207" />
-      <point type="curve" x="293" y="-174" />
-      <point type="line" x="280" y="-150" />
-      <point x="260" y="-162" />
-      <point x="240" y="-165" />
-      <point type="curve" x="227" y="-165" />
-      <point x="189" y="-165" />
-      <point x="160" y="-140" />
-      <point type="curve" x="160" y="-97" />
-      <point x="160" y="-57" />
-      <point x="185" y="-14" />
-      <point type="curve" x="227" y="13" />
-      <point type="line" x="199" y="13" />
-      <point x="146" y="-14" />
-      <point x="99" y="-71" />
-      <point type="curve" x="99" y="-133" />
+      <point x="99" y="-132" type="line" name="hintSet0000"/>
+      <point x="99" y="-187"/>
+      <point x="138" y="-220"/>
+      <point x="192" y="-220" type="curve"/>
+      <point x="227" y="-220"/>
+      <point x="270" y="-207"/>
+      <point x="293" y="-174" type="curve"/>
+      <point x="280" y="-150" type="line"/>
+      <point x="260" y="-162"/>
+      <point x="240" y="-165"/>
+      <point x="227" y="-165" type="curve"/>
+      <point x="189" y="-165"/>
+      <point x="160" y="-140"/>
+      <point x="160" y="-97" type="curve"/>
+      <point x="160" y="-57"/>
+      <point x="185" y="-14"/>
+      <point x="227" y="13" type="curve"/>
+      <point x="199" y="13" type="line"/>
+      <point x="146" y="-14"/>
+      <point x="99" y="-71"/>
+      <point x="99" y="-133" type="curve"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>aedf879cf9377b11c19f5906c773d4c59d92fd629ba160edfeba6827fe55baf12303f2f578c6062a15982641862a6cb453c68bb5d60079b7a09c7fc2e5ff61e2</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -52,7 +43,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>aedf879cf9377b11c19f5906c773d4c59d92fd629ba160edfeba6827fe55baf12303f2f578c6062a15982641862a6cb453c68bb5d60079b7a09c7fc2e5ff61e2</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

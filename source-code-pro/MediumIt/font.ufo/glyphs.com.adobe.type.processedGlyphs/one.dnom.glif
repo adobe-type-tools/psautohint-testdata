@@ -1,25 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="one.dnom">
-	<advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="one.dnom" format="2">
+  <advance width="600"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="224" y="0" />
-      <point type="line" x="293" y="0" />
-      <point type="line" x="354" y="307" />
-      <point type="line" x="299" y="307" />
-      <point name="hintSet0004" x="267" y="289" />
-      <point x="243" y="280" />
-      <point type="curve" x="197" y="273" />
-      <point name="hintSet0005" type="line" x="188" y="229" />
-      <point type="line" x="269" y="229" />
+      <point x="224" y="0" type="line" name="hintSet0000"/>
+      <point x="293" y="0" type="line"/>
+      <point x="354" y="307" type="line"/>
+      <point x="299" y="307" type="line"/>
+      <point x="267" y="289" name="hintSet0004"/>
+      <point x="243" y="280"/>
+      <point x="197" y="273" type="curve"/>
+      <point x="188" y="229" type="line" name="hintSet0005"/>
+      <point x="269" y="229" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l2240l2930l354307l299307267289243280c197273l188229l269229</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -53,6 +51,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l2240l2930l354307l299307267289243280c197273l188229l269229</string>
       </dict>
     </dict>
   </lib>

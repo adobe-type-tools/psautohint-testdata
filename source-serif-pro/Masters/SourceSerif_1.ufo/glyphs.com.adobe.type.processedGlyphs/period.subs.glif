@@ -1,36 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="period.subs">
-	<advance width="232" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period.subs" format="2">
+  <advance width="232"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="116" y="-221" />
-      <point x="143" y="-221" />
-      <point x="164" y="-198" />
-      <point type="curve" x="164" y="-171" />
-      <point x="164" y="-144" />
-      <point x="143" y="-120" />
-      <point type="curve" x="116" y="-120" />
-      <point x="89" y="-120" />
-      <point x="68" y="-144" />
-      <point type="curve" x="68" y="-171" />
-      <point x="68" y="-198" />
-      <point x="89" y="-221" />
-      <point type="curve" x="115" y="-221" />
+      <point x="116" y="-221" type="line" name="hintSet0000"/>
+      <point x="143" y="-221"/>
+      <point x="164" y="-198"/>
+      <point x="164" y="-171" type="curve"/>
+      <point x="164" y="-144"/>
+      <point x="143" y="-120"/>
+      <point x="116" y="-120" type="curve"/>
+      <point x="89" y="-120"/>
+      <point x="68" y="-144"/>
+      <point x="68" y="-171" type="curve"/>
+      <point x="68" y="-198"/>
+      <point x="89" y="-221"/>
+      <point x="115" y="-221" type="curve"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w232l116-221143-221164-198c164-171164-144143-120c116-12089-12068-144c68-17168-19889-221c115-221</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -43,7 +34,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w232l116-221143-221164-198c164-171164-144143-120c116-12089-12068-144c68-17168-19889-221c115-221</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

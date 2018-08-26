@@ -1,21 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="macron">
-	<unicode hex="00AF" />
-  <advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron" format="2">
+  <advance width="600"/>
+  <unicode hex="00AF"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="210" y="590" />
-      <point type="line" x="504" y="590" />
-      <point type="line" x="524" y="690" />
-      <point type="line" x="230" y="690" />
+      <point x="210" y="590" type="line" name="hintSet0000"/>
+      <point x="504" y="590" type="line"/>
+      <point x="524" y="690" type="line"/>
+      <point x="230" y="690" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l210590l504590l524690l230690</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -28,6 +26,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l210590l504590l524690l230690</string>
       </dict>
     </dict>
   </lib>

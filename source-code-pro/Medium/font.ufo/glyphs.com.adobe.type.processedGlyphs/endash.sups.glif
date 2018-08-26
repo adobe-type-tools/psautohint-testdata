@@ -1,20 +1,18 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="endash.sups">
-	<advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="endash.sups" format="2">
+  <advance width="600"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="166" y="531" />
-      <point type="line" x="434" y="531" />
-      <point type="line" x="434" y="579" />
-      <point type="line" x="166" y="579" />
+      <point x="166" y="531" type="line" name="hintSet0000"/>
+      <point x="434" y="531" type="line"/>
+      <point x="434" y="579" type="line"/>
+      <point x="166" y="579" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l166531l434531l434579l166579</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -27,6 +25,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l166531l434531l434579l166579</string>
       </dict>
     </dict>
   </lib>

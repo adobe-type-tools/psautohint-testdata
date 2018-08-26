@@ -1,31 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="macron">
-  <advance width="397" />
-  <unicode hex="00AF" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="macron" format="2">
+  <advance width="397"/>
+  <unicode hex="00AF"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="315" y="529" />
-      <point x="328" y="529" />
-      <point x="339" y="547" />
-      <point type="curve" x="339" y="559" />
-      <point x="339" y="565" />
-      <point x="335" y="573" />
-      <point type="curve" x="325" y="573" />
-      <point type="line" x="81" y="573" />
-      <point x="69" y="573" />
-      <point x="59" y="556" />
-      <point type="curve" x="59" y="544" />
-      <point x="59" y="537" />
-      <point x="62" y="529" />
-      <point type="curve" x="71" y="529" />
+      <point x="315" y="529" type="line" name="hintSet0000"/>
+      <point x="328" y="529"/>
+      <point x="339" y="547"/>
+      <point x="339" y="559" type="curve"/>
+      <point x="339" y="565"/>
+      <point x="335" y="573"/>
+      <point x="325" y="573" type="curve"/>
+      <point x="81" y="573" type="line"/>
+      <point x="69" y="573"/>
+      <point x="59" y="556"/>
+      <point x="59" y="544" type="curve"/>
+      <point x="59" y="537"/>
+      <point x="62" y="529"/>
+      <point x="71" y="529" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w397l315529328529339547c339559339565335573c325573l815736957359556c595445953762529c71529</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -38,6 +36,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w397l315529328529339547c339559339565335573c325573l815736957359556c595445953762529c71529</string>
       </dict>
     </dict>
   </lib>

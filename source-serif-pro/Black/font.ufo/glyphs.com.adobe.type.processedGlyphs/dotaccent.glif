@@ -1,29 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="dotaccent">
-	<unicode hex="02D9" />
-  <advance width="400" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotaccent" format="2">
+  <advance width="400"/>
+  <unicode hex="02D9"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="curve" x="200" y="562" />
-      <point x="251" y="562" />
-      <point x="292" y="598" />
-      <point type="curve" x="292" y="648" />
-      <point x="292" y="698" />
-      <point x="251" y="734" />
-      <point type="curve" x="200" y="734" />
-      <point x="149" y="734" />
-      <point x="108" y="698" />
-      <point type="curve" x="108" y="648" />
-      <point x="108" y="598" />
-      <point x="149" y="562" />
+      <point x="200" y="562" type="curve" name="hintSet0000"/>
+      <point x="251" y="562"/>
+      <point x="292" y="598"/>
+      <point x="292" y="648" type="curve"/>
+      <point x="292" y="698"/>
+      <point x="251" y="734"/>
+      <point x="200" y="734" type="curve"/>
+      <point x="149" y="734"/>
+      <point x="108" y="698"/>
+      <point x="108" y="648" type="curve"/>
+      <point x="108" y="598"/>
+      <point x="149" y="562"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w400c200562251562292598c292648292698251734c200734149734108698c108648108598149562</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -36,6 +34,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w400c200562251562292598c292648292698251734c200734149734108698c108648108598149562</string>
       </dict>
     </dict>
   </lib>

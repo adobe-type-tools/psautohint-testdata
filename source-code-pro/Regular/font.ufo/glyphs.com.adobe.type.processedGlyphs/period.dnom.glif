@@ -1,28 +1,26 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="period.dnom">
-	<advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period.dnom" format="2">
+  <advance width="600"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="curve" x="300" y="-11" />
-      <point x="327" y="-11" />
-      <point x="349" y="9" />
-      <point type="curve" x="349" y="39" />
-      <point x="349" y="70" />
-      <point x="327" y="90" />
-      <point type="curve" x="300" y="90" />
-      <point x="273" y="90" />
-      <point x="251" y="70" />
-      <point type="curve" x="251" y="39" />
-      <point x="251" y="9" />
-      <point x="273" y="-11" />
+      <point x="300" y="-11" type="curve" name="hintSet0000"/>
+      <point x="327" y="-11"/>
+      <point x="349" y="9"/>
+      <point x="349" y="39" type="curve"/>
+      <point x="349" y="70"/>
+      <point x="327" y="90"/>
+      <point x="300" y="90" type="curve"/>
+      <point x="273" y="90"/>
+      <point x="251" y="70"/>
+      <point x="251" y="39" type="curve"/>
+      <point x="251" y="9"/>
+      <point x="273" y="-11"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600c300-11327-113499c349393497032790c300902739025170c251392519273-11</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -35,6 +33,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600c300-11327-113499c349393497032790c300902739025170c251392519273-11</string>
       </dict>
     </dict>
   </lib>

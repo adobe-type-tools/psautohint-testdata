@@ -1,31 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="figuredash">
-  <advance width="438" />
-  <unicode hex="2012" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="figuredash" format="2">
+  <advance width="438"/>
+  <unicode hex="2012"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="378" y="287" />
-      <point x="391" y="287" />
-      <point x="404" y="308" />
-      <point type="curve" x="404" y="320" />
-      <point x="404" y="329" />
-      <point x="401" y="335" />
-      <point type="curve" x="390" y="335" />
-      <point type="line" x="58" y="335" />
-      <point x="46" y="335" />
-      <point x="33" y="318" />
-      <point type="curve" x="33" y="302" />
-      <point x="33" y="293" />
-      <point x="39" y="287" />
-      <point type="curve" x="48" y="287" />
+      <point x="378" y="287" type="line" name="hintSet0000"/>
+      <point x="391" y="287"/>
+      <point x="404" y="308"/>
+      <point x="404" y="320" type="curve"/>
+      <point x="404" y="329"/>
+      <point x="401" y="335"/>
+      <point x="390" y="335" type="curve"/>
+      <point x="58" y="335" type="line"/>
+      <point x="46" y="335"/>
+      <point x="33" y="318"/>
+      <point x="33" y="302" type="curve"/>
+      <point x="33" y="293"/>
+      <point x="39" y="287"/>
+      <point x="48" y="287" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w438l378287391287404308c404320404329401335c390335l583354633533318c333023329339287c48287</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -38,6 +36,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w438l378287391287404308c404320404329401335c390335l583354633533318c333023329339287c48287</string>
       </dict>
     </dict>
   </lib>

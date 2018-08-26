@@ -1,33 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="tonos">
-	<unicode hex="0384" />
-  <advance width="400" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="tonos" format="2">
+  <advance width="400"/>
+  <unicode hex="0384"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="curve" x="159" y="557" />
-      <point type="line" x="203" y="540" />
-      <point x="225" y="575" />
-      <point x="247" y="609" />
-      <point type="curve" x="256" y="625" />
-      <point x="290" y="686" />
-      <point x="300" y="709" />
-      <point type="curve" x="300" y="730" />
-      <point x="300" y="762" />
-      <point x="278" y="774" />
-      <point type="curve" x="254" y="774" />
-      <point x="225" y="774" />
-      <point x="206" y="758" />
-      <point type="curve" x="184" y="657" />
-      <point x="180" y="640" />
-      <point x="170" y="598" />
+      <point x="159" y="557" type="curve" name="hintSet0000"/>
+      <point x="203" y="540" type="line"/>
+      <point x="225" y="575"/>
+      <point x="247" y="609"/>
+      <point x="256" y="625" type="curve"/>
+      <point x="290" y="686"/>
+      <point x="300" y="709"/>
+      <point x="300" y="730" type="curve"/>
+      <point x="300" y="762"/>
+      <point x="278" y="774"/>
+      <point x="254" y="774" type="curve"/>
+      <point x="225" y="774"/>
+      <point x="206" y="758"/>
+      <point x="184" y="657" type="curve"/>
+      <point x="180" y="640"/>
+      <point x="170" y="598"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w400c159557l203540225575247609c256625290686300709c300730300762278774c254774225774206758c184657180640170598</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -40,6 +38,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w400c159557l203540225575247609c256625290686300709c300730300762278774c254774225774206758c184657180640170598</string>
       </dict>
     </dict>
   </lib>

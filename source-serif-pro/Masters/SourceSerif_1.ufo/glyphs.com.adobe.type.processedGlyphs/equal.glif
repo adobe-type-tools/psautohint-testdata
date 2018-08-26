@@ -1,34 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="equal">
-	<unicode hex="003D" />
-  <advance width="530" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal" format="2">
+  <advance width="530"/>
+  <unicode hex="003D"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="501" y="202" />
-      <point type="line" x="501" y="258" />
-      <point type="line" x="29" y="258" />
-      <point type="line" x="29" y="202" />
+      <point x="501" y="202" type="line" name="hintSet0000"/>
+      <point x="501" y="258" type="line"/>
+      <point x="29" y="258" type="line"/>
+      <point x="29" y="202" type="line"/>
     </contour>
     <contour>
-      <point type="line" x="501" y="402" />
-      <point type="line" x="501" y="458" />
-      <point type="line" x="29" y="458" />
-      <point type="line" x="29" y="402" />
+      <point x="501" y="402" type="line"/>
+      <point x="501" y="458" type="line"/>
+      <point x="29" y="458" type="line"/>
+      <point x="29" y="402" type="line"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w530l501202l501258l29258l29202l501402l501458l29458l29402</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -42,7 +33,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w530l501202l501258l29258l29202l501402l501458l29458l29402</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

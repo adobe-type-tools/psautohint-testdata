@@ -1,40 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="grave">
-	<unicode hex="0060" />
-  <advance width="400" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="grave" format="2">
+  <advance width="400"/>
+  <unicode hex="0060"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="254" y="576" />
-      <point x="225" y="623" />
-      <point x="196" y="670" />
-      <point type="curve" x="165" y="717" />
-      <point x="146" y="747" />
-      <point x="129" y="757" />
-      <point type="curve" x="112" y="757" />
-      <point x="93" y="757" />
-      <point x="75" y="745" />
-      <point type="curve" x="75" y="720" />
-      <point x="75" y="707" />
-      <point x="80" y="692" />
-      <point type="curve" x="107" y="667" />
-      <point x="147" y="630" />
-      <point x="187" y="594" />
-      <point type="curve" x="229" y="557" />
+      <point x="254" y="576" type="line" name="hintSet0000"/>
+      <point x="225" y="623"/>
+      <point x="196" y="670"/>
+      <point x="165" y="717" type="curve"/>
+      <point x="146" y="747"/>
+      <point x="129" y="757"/>
+      <point x="112" y="757" type="curve"/>
+      <point x="93" y="757"/>
+      <point x="75" y="745"/>
+      <point x="75" y="720" type="curve"/>
+      <point x="75" y="707"/>
+      <point x="80" y="692"/>
+      <point x="107" y="667" type="curve"/>
+      <point x="147" y="630"/>
+      <point x="187" y="594"/>
+      <point x="229" y="557" type="curve"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w400l254576225623196670c165717146747129757c1127579375775745c757207570780692c107667147630187594c229557</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -47,7 +38,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w400l254576225623196670c165717146747129757c1127579375775745c757207570780692c107667147630187594c229557</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

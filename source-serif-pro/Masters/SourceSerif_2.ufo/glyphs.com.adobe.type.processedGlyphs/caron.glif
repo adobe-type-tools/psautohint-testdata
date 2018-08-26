@@ -1,32 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="caron">
-	<unicode hex="02C7" />
-  <advance width="400" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron" format="2">
+  <advance width="400"/>
+  <unicode hex="02C7"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="82" y="716" />
-      <point type="line" x="72" y="706" />
-      <point type="line" x="190" y="570" />
-      <point type="line" x="210" y="570" />
-      <point type="line" x="328" y="706" />
-      <point type="line" x="318" y="716" />
-      <point type="line" x="191" y="599" />
-      <point type="line" x="209" y="599" />
+      <point x="82" y="716" type="line" name="hintSet0000"/>
+      <point x="72" y="706" type="line"/>
+      <point x="190" y="570" type="line"/>
+      <point x="210" y="570" type="line"/>
+      <point x="328" y="706" type="line"/>
+      <point x="318" y="716" type="line"/>
+      <point x="191" y="599" type="line"/>
+      <point x="209" y="599" type="line"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w400l82716l72706l190570l210570l328706l318716l191599l209599</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -39,7 +30,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w400l82716l72706l190570l210570l328706l318716l191599l209599</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

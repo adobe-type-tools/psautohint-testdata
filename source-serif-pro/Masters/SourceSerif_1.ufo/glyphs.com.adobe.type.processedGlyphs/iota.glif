@@ -1,37 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="iota">
-	<unicode hex="03B9" />
-  <advance width="285" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="iota" format="2">
+  <advance width="285"/>
+  <unicode hex="03B9"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="191" y="-13" />
-      <point x="226" y="-13" />
-      <point x="254" y="10" />
-      <point type="curve" x="270" y="39" />
-      <point type="line" x="262" y="64" />
-      <point x="248" y="59" />
-      <point x="232" y="55" />
-      <point type="curve" x="218" y="55" />
-      <point x="187" y="55" />
-      <point x="172" y="71" />
-      <point type="curve" x="170" y="135" />
-      <point name="hintSet0005" x="169" y="204" />
-      <point x="177" y="278" />
-      <point type="curve" x="193" y="477" />
-      <point type="line" x="183" y="487" />
-      <point type="line" x="100" y="469" />
-      <point type="line" x="102" y="125" />
-      <point name="hintSet0009" x="103" y="29" />
-      <point x="130" y="-13" />
-      <point type="curve" x="190" y="-13" />
+      <point x="191" y="-13" type="line" name="hintSet0000"/>
+      <point x="226" y="-13"/>
+      <point x="254" y="10"/>
+      <point x="270" y="39" type="curve"/>
+      <point x="262" y="64" type="line"/>
+      <point x="248" y="59"/>
+      <point x="232" y="55"/>
+      <point x="218" y="55" type="curve"/>
+      <point x="187" y="55"/>
+      <point x="172" y="71"/>
+      <point x="170" y="135" type="curve"/>
+      <point x="169" y="204" name="hintSet0005"/>
+      <point x="177" y="278"/>
+      <point x="193" y="477" type="curve"/>
+      <point x="183" y="487" type="line"/>
+      <point x="100" y="469" type="line"/>
+      <point x="102" y="125" type="line"/>
+      <point x="103" y="29" name="hintSet0009"/>
+      <point x="130" y="-13"/>
+      <point x="190" y="-13" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w285l191-13226-1325410c27039l262642485923255c218551875517271c170135169204177278c193477l183487l100469l10212510329130-13c190-13</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -65,6 +63,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w285l191-13226-1325410c27039l262642485923255c218551875517271c170135169204177278c193477l183487l100469l10212510329130-13c190-13</string>
       </dict>
     </dict>
   </lib>

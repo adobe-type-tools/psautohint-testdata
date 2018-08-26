@@ -1,29 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="bulletoperator">
-	<unicode hex="2219" />
-  <advance width="300" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bulletoperator" format="2">
+  <advance width="300"/>
+  <unicode hex="2219"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="curve" x="150" y="288" />
-      <point x="177" y="288" />
-      <point x="197" y="310" />
-      <point type="curve" x="197" y="334" />
-      <point x="197" y="360" />
-      <point x="177" y="381" />
-      <point type="curve" x="150" y="381" />
-      <point x="123" y="381" />
-      <point x="103" y="360" />
-      <point type="curve" x="103" y="334" />
-      <point x="103" y="310" />
-      <point x="123" y="288" />
+      <point x="150" y="288" type="curve" name="hintSet0000"/>
+      <point x="177" y="288"/>
+      <point x="197" y="310"/>
+      <point x="197" y="334" type="curve"/>
+      <point x="197" y="360"/>
+      <point x="177" y="381"/>
+      <point x="150" y="381" type="curve"/>
+      <point x="123" y="381"/>
+      <point x="103" y="360"/>
+      <point x="103" y="334" type="curve"/>
+      <point x="103" y="310"/>
+      <point x="123" y="288"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w300c150288177288197310c197334197360177381c150381123381103360c103334103310123288</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -36,6 +34,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w300c150288177288197310c197334197360177381c150381123381103360c103334103310123288</string>
       </dict>
     </dict>
   </lib>

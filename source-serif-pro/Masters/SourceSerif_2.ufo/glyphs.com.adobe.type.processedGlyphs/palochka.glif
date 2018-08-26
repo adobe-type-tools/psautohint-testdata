@@ -1,46 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="palochka">
-	<unicode hex="04CF" />
-  <advance width="303" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="palochka" format="2">
+  <advance width="303"/>
+  <unicode hex="04CF"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="157" y="26" />
-      <point type="line" x="148" y="26" />
-      <point type="line" x="38" y="20" />
-      <point type="line" x="38" y="0" />
-      <point type="line" x="266" y="0" />
-      <point type="line" x="266" y="20" />
+      <point x="157" y="26" type="line" name="hintSet0000"/>
+      <point x="148" y="26" type="line"/>
+      <point x="38" y="20" type="line"/>
+      <point x="38" y="0" type="line"/>
+      <point x="266" y="0" type="line"/>
+      <point x="266" y="20" type="line"/>
     </contour>
     <contour>
-      <point type="line" x="49" y="736" />
-      <point type="line" x="49" y="716" />
-      <point type="line" x="140" y="716" />
-      <point type="line" x="140" y="210" />
-      <point x="140" y="148" />
-      <point x="139" y="45" />
-      <point type="curve" x="137" y="0" />
-      <point type="line" x="171" y="0" />
-      <point x="169" y="45" />
-      <point x="168" y="148" />
-      <point type="curve" x="168" y="210" />
-      <point type="line" x="168" y="598" />
-      <point name="hintSet0014" type="line" x="170" y="740" />
-      <point name="hintSet0015" type="line" x="156" y="748" />
+      <point x="49" y="736" type="line"/>
+      <point x="49" y="716" type="line"/>
+      <point x="140" y="716" type="line"/>
+      <point x="140" y="210" type="line"/>
+      <point x="140" y="148"/>
+      <point x="139" y="45"/>
+      <point x="137" y="0" type="curve"/>
+      <point x="171" y="0" type="line"/>
+      <point x="169" y="45"/>
+      <point x="168" y="148"/>
+      <point x="168" y="210" type="curve"/>
+      <point x="168" y="598" type="line"/>
+      <point x="170" y="740" type="line" name="hintSet0014"/>
+      <point x="156" y="748" type="line" name="hintSet0015"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w303l15726l14826l3820l380l2660l26620l49736l49716l140716l14021014014813945c1370l171016945168148c168210l168598l170740l156748</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -74,7 +65,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w303l15726l14826l3820l380l2660l26620l49736l49716l140716l14021014014813945c1370l171016945168148c168210l168598l170740l156748</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

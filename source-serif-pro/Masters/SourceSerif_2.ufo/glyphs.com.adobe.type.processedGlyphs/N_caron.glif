@@ -1,65 +1,56 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="Ncaron">
-	<unicode hex="0147" />
-  <advance width="732" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ncaron" format="2">
+  <advance width="732"/>
+  <unicode hex="0147"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="48" y="0" />
-      <point name="hintSet0001" type="line" x="276" y="0" />
-      <point type="line" x="276" y="20" />
-      <point type="line" x="159" y="27" />
-      <point name="hintSet0004" type="line" x="145" y="27" />
-      <point type="line" x="48" y="20" />
+      <point x="48" y="0" type="line" name="hintSet0000"/>
+      <point x="276" y="0" type="line" name="hintSet0001"/>
+      <point x="276" y="20" type="line"/>
+      <point x="159" y="27" type="line"/>
+      <point x="145" y="27" type="line" name="hintSet0004"/>
+      <point x="48" y="20" type="line"/>
     </contour>
     <contour>
-      <point name="hintSet0006" type="line" x="139" y="0" />
-      <point type="line" x="163" y="0" />
-      <point type="line" x="163" y="654" />
-      <point type="line" x="139" y="654" />
+      <point x="139" y="0" type="line" name="hintSet0006"/>
+      <point x="163" y="0" type="line"/>
+      <point x="163" y="654" type="line"/>
+      <point x="139" y="654" type="line"/>
     </contour>
     <contour>
-      <point name="hintSet0010" type="line" x="466" y="657" />
-      <point type="line" x="583" y="650" />
-      <point name="hintSet0012" type="line" x="597" y="650" />
-      <point type="line" x="694" y="657" />
-      <point type="line" x="694" y="677" />
-      <point name="hintSet0015" type="line" x="466" y="677" />
+      <point x="466" y="657" type="line" name="hintSet0010"/>
+      <point x="583" y="650" type="line"/>
+      <point x="597" y="650" type="line" name="hintSet0012"/>
+      <point x="694" y="657" type="line"/>
+      <point x="694" y="677" type="line"/>
+      <point x="466" y="677" type="line" name="hintSet0015"/>
     </contour>
     <contour>
-      <point name="hintSet0016" type="line" x="582" y="-7" />
-      <point type="line" x="602" y="-7" />
-      <point type="line" x="602" y="677" />
-      <point type="line" x="578" y="677" />
-      <point type="line" x="578" y="48" />
-      <point type="line" x="155" y="677" />
-      <point type="line" x="38" y="677" />
-      <point name="hintSet0023" type="line" x="38" y="657" />
-      <point type="line" x="137" y="653" />
+      <point x="582" y="-7" type="line" name="hintSet0016"/>
+      <point x="602" y="-7" type="line"/>
+      <point x="602" y="677" type="line"/>
+      <point x="578" y="677" type="line"/>
+      <point x="578" y="48" type="line"/>
+      <point x="155" y="677" type="line"/>
+      <point x="38" y="677" type="line"/>
+      <point x="38" y="657" type="line" name="hintSet0023"/>
+      <point x="137" y="653" type="line"/>
     </contour>
     <contour>
-      <point type="line" x="246" y="865" />
-      <point type="line" x="235" y="854" />
-      <point type="line" x="346" y="740" />
-      <point type="line" x="366" y="740" />
-      <point type="line" x="477" y="854" />
-      <point type="line" x="466" y="865" />
-      <point type="line" x="347" y="764" />
-      <point type="line" x="365" y="764" />
+      <point x="246" y="865" type="line"/>
+      <point x="235" y="854" type="line"/>
+      <point x="346" y="740" type="line"/>
+      <point x="366" y="740" type="line"/>
+      <point x="477" y="854" type="line"/>
+      <point x="466" y="865" type="line"/>
+      <point x="347" y="764" type="line"/>
+      <point x="365" y="764" type="line"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>4b8f2dbbb6d2a0d5a70d21462f6dc401c1181b58b13cd65fa55326d5e08a2aa22e2315592e19c6164b32abf28006a68835d0d0a6a1d9ab85baac2ea4cfc335b6</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -162,7 +153,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>4b8f2dbbb6d2a0d5a70d21462f6dc401c1181b58b13cd65fa55326d5e08a2aa22e2315592e19c6164b32abf28006a68835d0d0a6a1d9ab85baac2ea4cfc335b6</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

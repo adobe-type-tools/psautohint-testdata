@@ -1,30 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="brevecmb.cyrcap">
-	<advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="brevecmb.cyrcap" format="2">
+  <advance width="600"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="curve" x="300" y="694" />
-      <point x="434" y="694" />
-      <point x="484" y="744" />
-      <point type="curve" x="488" y="828" />
-      <point type="line" x="344" y="834" />
-      <point name="hintSet0003" x="342" y="797" />
-      <point x="328" y="778" />
-      <point type="curve" x="300" y="778" />
-      <point x="272" y="778" />
-      <point x="258" y="797" />
-      <point type="curve" x="256" y="834" />
-      <point name="hintSet0005" type="line" x="112" y="828" />
-      <point name="hintSet0006" x="116" y="744" />
-      <point x="166" y="694" />
+      <point x="300" y="694" type="curve" name="hintSet0000"/>
+      <point x="434" y="694"/>
+      <point x="484" y="744"/>
+      <point x="488" y="828" type="curve"/>
+      <point x="344" y="834" type="line"/>
+      <point x="342" y="797" name="hintSet0003"/>
+      <point x="328" y="778"/>
+      <point x="300" y="778" type="curve"/>
+      <point x="272" y="778"/>
+      <point x="258" y="797"/>
+      <point x="256" y="834" type="curve"/>
+      <point x="112" y="828" type="line" name="hintSet0005"/>
+      <point x="116" y="744" name="hintSet0006"/>
+      <point x="166" y="694"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600c300694434694484744c488828l344834342797328778c300778272778258797c256834l112828116744166694</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -67,6 +65,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600c300694434694484744c488828l344834342797328778c300778272778258797c256834l112828116744166694</string>
       </dict>
     </dict>
   </lib>

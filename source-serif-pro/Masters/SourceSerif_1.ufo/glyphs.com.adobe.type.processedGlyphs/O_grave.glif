@@ -1,70 +1,61 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="Ograve">
-	<unicode hex="00D2" />
-  <advance width="707" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ograve" format="2">
+  <advance width="707"/>
+  <unicode hex="00D2"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="153" y="335" />
-      <point x="153" y="485" />
-      <point x="213" y="635" />
-      <point type="curve" x="354" y="635" />
-      <point x="495" y="635" />
-      <point x="554" y="485" />
-      <point type="curve" x="554" y="335" />
-      <point x="554" y="185" />
-      <point x="495" y="35" />
-      <point type="curve" x="354" y="35" />
-      <point x="213" y="35" />
-      <point x="153" y="185" />
-      <point type="curve" x="153" y="334" />
+      <point x="153" y="335" type="line" name="hintSet0000"/>
+      <point x="153" y="485"/>
+      <point x="213" y="635"/>
+      <point x="354" y="635" type="curve"/>
+      <point x="495" y="635"/>
+      <point x="554" y="485"/>
+      <point x="554" y="335" type="curve"/>
+      <point x="554" y="185"/>
+      <point x="495" y="35"/>
+      <point x="354" y="35" type="curve"/>
+      <point x="213" y="35"/>
+      <point x="153" y="185"/>
+      <point x="153" y="334" type="curve"/>
     </contour>
     <contour>
-      <point type="line" x="354" y="685" />
-      <point x="200" y="685" />
-      <point x="48" y="554" />
-      <point type="curve" x="48" y="335" />
-      <point x="48" y="107" />
-      <point x="199" y="-15" />
-      <point type="curve" x="354" y="-15" />
-      <point x="509" y="-15" />
-      <point x="659" y="116" />
-      <point type="curve" x="659" y="335" />
-      <point x="659" y="563" />
-      <point x="508" y="685" />
-      <point type="curve" x="355" y="685" />
+      <point x="354" y="685" type="line"/>
+      <point x="200" y="685"/>
+      <point x="48" y="554"/>
+      <point x="48" y="335" type="curve"/>
+      <point x="48" y="107"/>
+      <point x="199" y="-15"/>
+      <point x="354" y="-15" type="curve"/>
+      <point x="509" y="-15"/>
+      <point x="659" y="116"/>
+      <point x="659" y="335" type="curve"/>
+      <point x="659" y="563"/>
+      <point x="508" y="685"/>
+      <point x="355" y="685" type="curve"/>
     </contour>
     <contour>
-      <point type="line" x="419" y="746" />
-      <point x="389" y="777" />
-      <point x="358" y="808" />
-      <point type="curve" x="326" y="839" />
-      <point x="298" y="867" />
-      <point x="281" y="877" />
-      <point type="curve" x="264" y="877" />
-      <point x="244" y="877" />
-      <point x="227" y="864" />
-      <point type="curve" x="227" y="844" />
-      <point x="227" y="826" />
-      <point x="240" y="809" />
-      <point type="curve" x="277" y="789" />
-      <point x="317" y="767" />
-      <point x="359" y="744" />
-      <point type="curve" x="401" y="722" />
+      <point x="419" y="746" type="line"/>
+      <point x="389" y="777"/>
+      <point x="358" y="808"/>
+      <point x="326" y="839" type="curve"/>
+      <point x="298" y="867"/>
+      <point x="281" y="877"/>
+      <point x="264" y="877" type="curve"/>
+      <point x="244" y="877"/>
+      <point x="227" y="864"/>
+      <point x="227" y="844" type="curve"/>
+      <point x="227" y="826"/>
+      <point x="240" y="809"/>
+      <point x="277" y="789" type="curve"/>
+      <point x="317" y="767"/>
+      <point x="359" y="744"/>
+      <point x="401" y="722" type="curve"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>fb8840761cd761310ba8dd31993b16a742bc8d9770f4a0278e5d3e5fd8c91dc85571a58434cf69b893386a0ddfc5e8bea6431c95bb66ad5385d05b3efdf67c2e</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -80,7 +71,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>fb8840761cd761310ba8dd31993b16a742bc8d9770f4a0278e5d3e5fd8c91dc85571a58434cf69b893386a0ddfc5e8bea6431c95bb66ad5385d05b3efdf67c2e</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

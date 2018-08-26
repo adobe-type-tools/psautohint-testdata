@@ -1,31 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="minus">
-  <advance width="550" />
-  <unicode hex="2212" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="minus" format="2">
+  <advance width="550"/>
+  <unicode hex="2212"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="463" y="226" />
-      <point x="476" y="226" />
-      <point x="490" y="249" />
-      <point type="curve" x="490" y="259" />
-      <point x="490" y="267" />
-      <point x="486" y="276" />
-      <point type="curve" x="476" y="276" />
-      <point type="line" x="85" y="276" />
-      <point x="73" y="276" />
-      <point x="60" y="257" />
-      <point type="curve" x="60" y="242" />
-      <point x="60" y="234" />
-      <point x="66" y="226" />
-      <point type="curve" x="75" y="226" />
+      <point x="463" y="226" type="line" name="hintSet0000"/>
+      <point x="476" y="226"/>
+      <point x="490" y="249"/>
+      <point x="490" y="259" type="curve"/>
+      <point x="490" y="267"/>
+      <point x="486" y="276"/>
+      <point x="476" y="276" type="curve"/>
+      <point x="85" y="276" type="line"/>
+      <point x="73" y="276"/>
+      <point x="60" y="257"/>
+      <point x="60" y="242" type="curve"/>
+      <point x="60" y="234"/>
+      <point x="66" y="226"/>
+      <point x="75" y="226" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w550l463226476226490249c490259490267486276c476276l852767327660257c602426023466226c75226</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -38,6 +36,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w550l463226476226490249c490259490267486276c476276l852767327660257c602426023466226c75226</string>
       </dict>
     </dict>
   </lib>

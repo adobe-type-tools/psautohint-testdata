@@ -1,27 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="dngb:cross">
-	<unicode hex="274C" />
-  <advance width="670" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dngb:cross" format="2">
+  <advance width="670"/>
+  <unicode hex="274C"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="610" y="0" />
-      <point type="line" x="670" y="60" />
-      <point type="line" x="60" y="670" />
-      <point type="line" x="0" y="610" />
+      <point x="610" y="0" type="line" name="hintSet0000"/>
+      <point x="670" y="60" type="line"/>
+      <point x="60" y="670" type="line"/>
+      <point x="0" y="610" type="line"/>
     </contour>
     <contour>
-      <point name="hintSet0004" type="line" x="670" y="610" />
-      <point type="line" x="610" y="670" />
-      <point type="line" x="0" y="60" />
-      <point type="line" x="60" y="0" />
+      <point x="670" y="610" type="line" name="hintSet0004"/>
+      <point x="610" y="670" type="line"/>
+      <point x="0" y="60" type="line"/>
+      <point x="60" y="0" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w670l6100l67060l60670l0610l670610l610670l060l600</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -45,6 +43,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w670l6100l67060l60670l0610l670610l610670l060l600</string>
       </dict>
     </dict>
   </lib>

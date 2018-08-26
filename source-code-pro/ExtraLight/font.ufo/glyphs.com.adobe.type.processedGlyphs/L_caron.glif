@@ -1,30 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="Lcaron">
-	<unicode hex="013D" />
-  <advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Lcaron" format="2">
+  <advance width="600"/>
+  <unicode hex="013D"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="156" y="0" />
-      <point type="line" x="538" y="0" />
-      <point type="line" x="538" y="28" />
-      <point type="line" x="186" y="28" />
-      <point type="line" x="186" y="660" />
-      <point type="line" x="156" y="660" />
+      <point x="156" y="0" type="line" name="hintSet0000"/>
+      <point x="538" y="0" type="line"/>
+      <point x="538" y="28" type="line"/>
+      <point x="186" y="28" type="line"/>
+      <point x="186" y="660" type="line"/>
+      <point x="156" y="660" type="line"/>
     </contour>
     <contour>
-      <point type="line" x="392" y="518" />
-      <point type="line" x="414" y="518" />
-      <point type="line" x="420" y="714" />
-      <point type="line" x="420" y="782" />
-      <point type="line" x="390" y="782" />
+      <point x="392" y="518" type="line"/>
+      <point x="414" y="518" type="line"/>
+      <point x="420" y="714" type="line"/>
+      <point x="420" y="782" type="line"/>
+      <point x="390" y="782" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l1560l5380l53828l18628l186660l156660l392518l414518l420714l420782l390782</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -38,6 +36,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l1560l5380l53828l18628l186660l156660l392518l414518l420714l420782l390782</string>
       </dict>
     </dict>
   </lib>

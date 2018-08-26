@@ -1,38 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="breve">
-	<unicode hex="02D8" />
-  <advance width="400" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="breve" format="2">
+  <advance width="400"/>
+  <unicode hex="02D8"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="50" y="723" />
-      <point x="59" y="646" />
-      <point x="109" y="575" />
-      <point type="curve" x="200" y="575" />
-      <point x="291" y="575" />
-      <point x="341" y="646" />
-      <point type="curve" x="350" y="723" />
-      <point type="line" x="321" y="734" />
-      <point x="301" y="682" />
-      <point x="267" y="640" />
-      <point type="curve" x="200" y="640" />
-      <point x="133" y="640" />
-      <point x="99" y="682" />
-      <point type="curve" x="79" y="734" />
+      <point x="50" y="723" type="line" name="hintSet0000"/>
+      <point x="59" y="646"/>
+      <point x="109" y="575"/>
+      <point x="200" y="575" type="curve"/>
+      <point x="291" y="575"/>
+      <point x="341" y="646"/>
+      <point x="350" y="723" type="curve"/>
+      <point x="321" y="734" type="line"/>
+      <point x="301" y="682"/>
+      <point x="267" y="640"/>
+      <point x="200" y="640" type="curve"/>
+      <point x="133" y="640"/>
+      <point x="99" y="682"/>
+      <point x="79" y="734" type="curve"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w400l5072359646109575c200575291575341646c350723l321734301682267640c20064013364099682c79734</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -45,7 +36,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w400l5072359646109575c200575291575341646c350723l321734301682267640c20064013364099682c79734</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

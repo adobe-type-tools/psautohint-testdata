@@ -1,25 +1,23 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="bridgebelowcmb">
-	<unicode hex="032A" />
-  <advance width="600" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bridgebelowcmb" format="2">
+  <advance width="600"/>
+  <unicode hex="032A"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="182" y="-229" />
-      <point type="line" x="214" y="-229" />
-      <point name="hintSet0002" type="line" x="214" y="-118" />
-      <point type="line" x="386" y="-118" />
-      <point name="hintSet0004" type="line" x="386" y="-229" />
-      <point type="line" x="418" y="-229" />
-      <point name="hintSet0006" type="line" x="418" y="-85" />
-      <point type="line" x="182" y="-85" />
+      <point x="182" y="-229" type="line" name="hintSet0000"/>
+      <point x="214" y="-229" type="line"/>
+      <point x="214" y="-118" type="line" name="hintSet0002"/>
+      <point x="386" y="-118" type="line"/>
+      <point x="386" y="-229" type="line" name="hintSet0004"/>
+      <point x="418" y="-229" type="line"/>
+      <point x="418" y="-85" type="line" name="hintSet0006"/>
+      <point x="182" y="-85" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w600l182-229l214-229l214-118l386-118l386-229l418-229l418-85l182-85</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -63,6 +61,8 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w600l182-229l214-229l214-118l386-118l386-229l418-229l418-85l182-85</string>
       </dict>
     </dict>
   </lib>

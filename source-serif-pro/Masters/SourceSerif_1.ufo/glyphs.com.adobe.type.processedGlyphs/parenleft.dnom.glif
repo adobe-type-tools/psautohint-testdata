@@ -1,38 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="parenleft.dnom">
-	<advance width="250" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="parenleft.dnom" format="2">
+  <advance width="250"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="116" y="172" />
-      <point x="116" y="259" />
-      <point x="140" y="335" />
-      <point type="curve" x="213" y="436" />
-      <point type="line" x="193" y="455" />
-      <point x="101" y="376" />
-      <point x="53" y="282" />
-      <point type="curve" x="53" y="172" />
-      <point x="53" y="62" />
-      <point x="101" y="-32" />
-      <point type="curve" x="193" y="-110" />
-      <point type="line" x="213" y="-91" />
-      <point x="140" y="9" />
-      <point x="116" y="86" />
-      <point type="curve" x="116" y="171" />
+      <point x="116" y="172" type="line" name="hintSet0000"/>
+      <point x="116" y="259"/>
+      <point x="140" y="335"/>
+      <point x="213" y="436" type="curve"/>
+      <point x="193" y="455" type="line"/>
+      <point x="101" y="376"/>
+      <point x="53" y="282"/>
+      <point x="53" y="172" type="curve"/>
+      <point x="53" y="62"/>
+      <point x="101" y="-32"/>
+      <point x="193" y="-110" type="curve"/>
+      <point x="213" y="-91" type="line"/>
+      <point x="140" y="9"/>
+      <point x="116" y="86"/>
+      <point x="116" y="171" type="curve"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w250l116172116259140335c213436l19345510137653282c531725362101-32c193-110l213-91140911686c116171</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -45,7 +36,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w250l116172116259140335c213436l19345510137653282c531725362101-32c193-110l213-91140911686c116171</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>

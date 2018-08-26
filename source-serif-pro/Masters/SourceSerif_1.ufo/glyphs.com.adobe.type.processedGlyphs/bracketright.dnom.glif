@@ -1,41 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<glyph format="1" name="bracketright.dnom">
-	<advance width="254" />
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="bracketright.dnom" format="2">
+  <advance width="254"/>
   <outline>
     <contour>
-      <point name="hintSet0000" type="line" x="40" y="-100" />
-      <point name="hintSet0001" type="line" x="139" y="-100" />
-      <point type="line" x="139" y="-57" />
-      <point type="line" x="126" y="-57" />
-      <point name="hintSet0004" type="line" x="40" y="-67" />
+      <point x="40" y="-100" type="line" name="hintSet0000"/>
+      <point x="139" y="-100" type="line" name="hintSet0001"/>
+      <point x="139" y="-57" type="line"/>
+      <point x="126" y="-57" type="line"/>
+      <point x="40" y="-67" type="line" name="hintSet0004"/>
     </contour>
     <contour>
-      <point type="line" x="40" y="416" />
-      <point name="hintSet0006" type="line" x="126" y="406" />
-      <point type="line" x="139" y="406" />
-      <point type="line" x="139" y="449" />
-      <point name="hintSet0009" type="line" x="40" y="449" />
+      <point x="40" y="416" type="line"/>
+      <point x="126" y="406" type="line" name="hintSet0006"/>
+      <point x="139" y="406" type="line"/>
+      <point x="139" y="449" type="line"/>
+      <point x="40" y="449" type="line" name="hintSet0009"/>
     </contour>
     <contour>
-      <point name="hintSet0010" type="line" x="110" y="-100" />
-      <point type="line" x="168" y="-100" />
-      <point type="line" x="168" y="449" />
-      <point type="line" x="110" y="449" />
+      <point x="110" y="-100" type="line" name="hintSet0010"/>
+      <point x="168" y="-100" type="line"/>
+      <point x="168" y="449" type="line"/>
+      <point x="110" y="449" type="line"/>
     </contour>
   </outline>
   <lib>
-		<dict>
-			<key>com.typemytype.robofont.mark</key>
-      <array>
-				<integer>0</integer>
-        <real>0.5</real>
-        <integer>1</integer>
-        <integer>1</integer>
-      </array>
+    <dict>
       <key>com.adobe.type.autohint.v2</key>
       <dict>
-        <key>id</key>
-        <string>w254l40-100l139-100l139-57l126-57l40-67l40416l126406l139406l139449l40449l110-100l168-100l168449l110449</string>
         <key>hintSetList</key>
         <array>
           <dict>
@@ -99,7 +90,16 @@
             </array>
           </dict>
         </array>
+        <key>id</key>
+        <string>w254l40-100l139-100l139-57l126-57l40-67l40416l126406l139406l139449l40449l110-100l168-100l168449l110449</string>
       </dict>
+      <key>com.typemytype.robofont.mark</key>
+      <array>
+        <integer>0</integer>
+        <real>0.5</real>
+        <integer>1</integer>
+        <integer>1</integer>
+      </array>
     </dict>
   </lib>
 </glyph>
