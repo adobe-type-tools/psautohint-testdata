@@ -6,7 +6,7 @@
   <anchor x="109.60000000000001" y="-17.6" name="belowLC"/>
   <outline>
     <contour>
-      <point x="76.8" y="0" type="line" name="hintSet0000"/>
+      <point x="76.8" y="0" type="line" name="hintRef0000"/>
       <point x="142.4" y="0" type="line"/>
       <point x="142.4" y="450.4" type="line"/>
       <point x="142.4" y="500"/>
@@ -24,11 +24,11 @@
       <point x="76.8" y="450.4" type="curve"/>
     </contour>
     <contour>
-      <point x="24" y="335.2" type="line" name="hintSet0008"/>
-      <point x="224.8" y="335.2" type="line" name="hintSet0009"/>
+      <point x="24" y="335.2" type="line" name="hintRef0001"/>
+      <point x="224.8" y="335.2" type="line" name="hintRef0002"/>
       <point x="224.8" y="388.8" type="line"/>
-      <point x="79.2" y="388.8" type="line" name="hintSet0011"/>
-      <point x="24" y="384.8" type="line"/>
+      <point x="79.2" y="388.8" type="line"/>
+      <point x="24" y="384.8" type="line" name="hintRef0003"/>
     </contour>
   </outline>
   <lib>
@@ -39,7 +39,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 21 -21</string>
@@ -50,7 +50,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0008</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem 21 -21</string>
@@ -61,7 +61,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0009</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem 21 -21</string>
@@ -72,7 +72,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0011</string>
+            <string>hintRef0003</string>
             <key>stems</key>
             <array>
               <string>hstem 21 -21</string>
