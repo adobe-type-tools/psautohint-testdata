@@ -6,7 +6,7 @@
   <anchor x="47.2" y="-184.8" name="belowLC"/>
   <outline>
     <contour>
-      <point x="25.6" y="-173.6" type="curve" name="hintSet0000"/>
+      <point x="25.6" y="-173.6" type="curve" name="hintRef0000"/>
       <point x="103.2" y="-173.6"/>
       <point x="132" y="-123.2"/>
       <point x="132" y="-44" type="curve"/>
@@ -24,8 +24,8 @@
       <point x="1.6" y="-173.6"/>
     </contour>
     <contour>
-      <point x="100" y="468.8" type="curve" name="hintSet0009"/>
-      <point x="124.8" y="468.8"/>
+      <point x="100" y="468.8" type="curve"/>
+      <point x="124.8" y="468.8" name="hintRef0001"/>
       <point x="144.8" y="486.4"/>
       <point x="144.8" y="511.2" type="curve"/>
       <point x="144.8" y="536.8"/>
@@ -46,7 +46,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -173.6 53.6</string>
@@ -56,7 +56,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0009</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem -173.6 53.6</string>
