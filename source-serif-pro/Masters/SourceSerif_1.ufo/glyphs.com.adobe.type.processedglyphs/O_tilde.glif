@@ -4,7 +4,7 @@
   <unicode hex="00D5"/>
   <outline>
     <contour>
-      <point x="153" y="335" type="line" name="hintSet0000"/>
+      <point x="153" y="335" type="line" name="hintRef0000"/>
       <point x="153" y="485"/>
       <point x="213" y="635"/>
       <point x="354" y="635" type="curve"/>
@@ -42,7 +42,7 @@
       <point x="302" y="807"/>
       <point x="323" y="779"/>
       <point x="348" y="758" type="curve"/>
-      <point x="370" y="740" name="hintSet0014"/>
+      <point x="370" y="740" name="hintRef0001"/>
       <point x="393" y="724"/>
       <point x="430" y="724" type="curve"/>
       <point x="492" y="724"/>
@@ -55,10 +55,10 @@
       <point x="406" y="780"/>
       <point x="385" y="808"/>
       <point x="360" y="829" type="curve"/>
-      <point x="337" y="847"/>
+      <point x="337" y="847" name="hintRef0002"/>
       <point x="315" y="863"/>
       <point x="278" y="863" type="curve"/>
-      <point x="217" y="863" name="hintSet0020"/>
+      <point x="217" y="863"/>
       <point x="186" y="812"/>
     </contour>
   </outline>
@@ -70,7 +70,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -15 50</string>
@@ -83,20 +83,19 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0014</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem -15 50</string>
               <string>hstem 635 50</string>
               <string>hstem 724 56</string>
-              <string>hstem 807 56</string>
               <string>vstem 48 105</string>
               <string>vstem 554 105</string>
             </array>
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0020</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem -15 50</string>

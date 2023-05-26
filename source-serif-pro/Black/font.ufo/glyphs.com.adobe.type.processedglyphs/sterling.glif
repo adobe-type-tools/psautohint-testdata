@@ -4,7 +4,7 @@
   <unicode hex="00A3"/>
   <outline>
     <contour>
-      <point x="66" y="265" type="line" name="hintSet0000"/>
+      <point x="66" y="265" type="line" name="hintRef0000"/>
       <point x="141" y="265" type="line"/>
       <point x="142" y="258"/>
       <point x="143" y="250"/>
@@ -24,7 +24,7 @@
       <point x="268" y="265" type="curve"/>
       <point x="408" y="265" type="line"/>
       <point x="408" y="325" type="line"/>
-      <point x="265" y="325" type="line" name="hintSet0012"/>
+      <point x="265" y="325" type="line"/>
       <point x="256" y="372"/>
       <point x="239" y="420"/>
       <point x="239" y="476" type="curve"/>
@@ -48,7 +48,7 @@
       <point x="79" y="398"/>
       <point x="103" y="363"/>
       <point x="122" y="325" type="curve"/>
-      <point x="66" y="325" type="line" name="hintSet0022"/>
+      <point x="66" y="325" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -59,35 +59,13 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 140</string>
-              <string>hstem 265 60</string>
-              <string>hstem 585 55</string>
-              <string>vstem 143 124</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0012</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 0 140</string>
               <string>hstem 265 60</string>
               <string>hstem 585 55</string>
               <string>vstem 79 160</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0022</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 140</string>
-              <string>hstem 265 60</string>
-              <string>hstem 585 55</string>
-              <string>vstem 143 124</string>
             </array>
           </dict>
         </array>

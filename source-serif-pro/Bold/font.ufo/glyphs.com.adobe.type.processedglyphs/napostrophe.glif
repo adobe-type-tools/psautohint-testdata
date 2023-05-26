@@ -4,12 +4,12 @@
   <unicode hex="0149"/>
   <outline>
     <contour>
-      <point x="590" y="499" type="curve" name="hintSet0000"/>
+      <point x="590" y="499" type="curve" name="hintRef0000"/>
       <point x="532" y="499"/>
       <point x="483" y="477"/>
       <point x="430" y="416" type="curve"/>
-      <point x="424" y="488" type="line" name="hintSet0002"/>
-      <point x="406" y="499" type="line" name="hintSet0003"/>
+      <point x="424" y="488" type="line" name="hintRef0001"/>
+      <point x="406" y="499" type="line" name="hintRef0002"/>
       <point x="209" y="432" type="line"/>
       <point x="209" y="393" type="line"/>
       <point x="270" y="384" type="line"/>
@@ -52,7 +52,7 @@
       <point x="676" y="499"/>
     </contour>
     <contour>
-      <point x="192" y="627" type="curve" name="hintSet0029"/>
+      <point x="192" y="627" type="curve"/>
       <point x="192" y="656"/>
       <point x="185" y="685"/>
       <point x="170" y="710" type="curve"/>
@@ -82,7 +82,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 0 47</string>
@@ -93,7 +93,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0002</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem 0 47</string>
@@ -104,22 +104,11 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0003</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem 0 47</string>
               <string>hstem 402 97</string>
-              <string>vstem 273 160</string>
-              <string>vstem 574 160</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0029</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 47</string>
-              <string>hstem 488 -20</string>
               <string>vstem 27 165</string>
               <string>vstem 273 160</string>
               <string>vstem 574 160</string>

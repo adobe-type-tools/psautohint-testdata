@@ -4,7 +4,7 @@
   <unicode hex="042D"/>
   <outline>
     <contour>
-      <point x="54" y="37" type="line" name="hintSet0000"/>
+      <point x="54" y="37" type="line" name="hintRef0000"/>
       <point x="120" y="-1"/>
       <point x="181" y="-14"/>
       <point x="252" y="-14" type="curve"/>
@@ -14,10 +14,10 @@
       <point x="563" y="549"/>
       <point x="446" y="688"/>
       <point x="252" y="688" type="curve"/>
-      <point x="182" y="688" name="hintSet0004"/>
+      <point x="182" y="688"/>
       <point x="124" y="674"/>
       <point x="60" y="637" type="curve"/>
-      <point x="56" y="496" type="line"/>
+      <point x="56" y="496" type="line" name="hintRef0001"/>
       <point x="95" y="496" type="line"/>
       <point x="113" y="619" type="line"/>
       <point x="154" y="644"/>
@@ -36,10 +36,10 @@
       <point x="502" y="125"/>
       <point x="407" y="20"/>
       <point x="254" y="20" type="curve"/>
-      <point x="201" y="20" name="hintSet0018"/>
+      <point x="201" y="20"/>
       <point x="153" y="30"/>
       <point x="107" y="55" type="curve"/>
-      <point x="89" y="179" type="line"/>
+      <point x="89" y="179" type="line" name="hintRef0002"/>
       <point x="50" y="179" type="line"/>
     </contour>
   </outline>
@@ -51,7 +51,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -14 34</string>
@@ -64,7 +64,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0004</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem -14 34</string>
@@ -77,7 +77,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0018</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem -14 34</string>

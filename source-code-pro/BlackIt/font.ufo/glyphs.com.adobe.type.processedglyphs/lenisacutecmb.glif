@@ -3,15 +3,15 @@
   <advance width="600"/>
   <outline>
     <contour>
-      <point x="203" y="574" type="line" name="hintSet0000"/>
+      <point x="203" y="574" type="line" name="hintRef0000"/>
       <point x="263" y="582"/>
       <point x="335" y="611"/>
       <point x="350" y="686" type="curve"/>
-      <point x="362" y="747" name="hintSet0002"/>
+      <point x="362" y="747"/>
       <point x="321" y="790"/>
       <point x="207" y="794" type="curve"/>
       <point x="180" y="700" type="line"/>
-      <point x="227" y="696"/>
+      <point x="227" y="696" name="hintRef0001"/>
       <point x="242" y="685"/>
       <point x="239" y="668" type="curve"/>
       <point x="235" y="649"/>
@@ -20,7 +20,7 @@
     </contour>
     <contour>
       <point x="449" y="556" type="line"/>
-      <point x="562" y="776" type="line"/>
+      <point x="562" y="776" type="line" name="hintRef0002"/>
       <point x="437" y="802" type="line"/>
       <point x="362" y="574" type="line"/>
     </contour>
@@ -33,20 +33,29 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
-              <string>hstem 556 246</string>
-              <string>vstem 180 382</string>
+              <string>hstem 700 94</string>
+              <string>vstem 204 149</string>
             </array>
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0002</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem 700 94</string>
-              <string>vstem 180 382</string>
+              <string>vstem 239 114</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0002</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 556 246</string>
+              <string>vstem 204 149</string>
             </array>
           </dict>
         </array>

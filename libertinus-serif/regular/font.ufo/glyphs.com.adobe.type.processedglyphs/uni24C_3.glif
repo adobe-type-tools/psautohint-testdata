@@ -4,8 +4,8 @@
   <unicode hex="24C3"/>
   <outline>
     <contour>
-      <point x="273" y="220" type="curve" name="hintSet0000"/>
-      <point x="273" y="372" type="line" name="hintSet0001"/>
+      <point x="273" y="220" type="curve" name="hintRef0000"/>
+      <point x="273" y="372" type="line"/>
       <point x="273" y="411"/>
       <point x="283" y="403"/>
       <point x="302" y="380" type="curve"/>
@@ -23,7 +23,7 @@
       <point x="607" y="470"/>
       <point x="607" y="487"/>
       <point x="602" y="492" type="curve"/>
-      <point x="578" y="491" name="flexCurve0009"/>
+      <point x="578" y="491" name="hintRef0001"/>
       <point x="549" y="490"/>
       <point x="525" y="490" type="curve"/>
       <point x="501" y="490"/>
@@ -35,12 +35,12 @@
       <point x="498" y="462"/>
       <point x="507" y="459"/>
       <point x="507" y="392" type="curve"/>
-      <point x="507" y="243" type="line" name="hintSet0013"/>
+      <point x="507" y="243" type="line"/>
       <point x="507" y="221"/>
       <point x="504" y="208"/>
       <point x="479" y="241" type="curve"/>
       <point x="296" y="490" type="line"/>
-      <point x="183" y="492" type="line"/>
+      <point x="183" y="492" type="line" name="hintRef0002"/>
       <point x="181" y="489" type="line"/>
       <point x="181" y="470" type="line"/>
       <point x="181" y="467"/>
@@ -56,7 +56,7 @@
       <point x="173" y="142"/>
       <point x="173" y="125"/>
       <point x="178" y="120" type="curve"/>
-      <point x="202" y="121" name="flexCurve0024"/>
+      <point x="202" y="121" name="hintRef0003"/>
       <point x="230" y="122"/>
       <point x="254" y="122" type="curve"/>
       <point x="278" y="122"/>
@@ -65,7 +65,7 @@
       <point x="335" y="125"/>
       <point x="335" y="142"/>
       <point x="331" y="147" type="curve"/>
-      <point x="282" y="151" name="hintSet0027"/>
+      <point x="282" y="151"/>
       <point x="273" y="153"/>
     </contour>
     <contour>
@@ -103,18 +103,19 @@
       <dict>
         <key>flexList</key>
         <array>
-          <string>flexCurve0009</string>
-          <string>flexCurve0024</string>
+          <string>hintRef0001</string>
+          <string>hintRef0003</string>
         </array>
         <key>hintSetList</key>
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -15 37</string>
-              <string>hstem 465 26</string>
+              <string>hstem 112 110</string>
+              <string>hstem 400 91</string>
               <string>hstem 609 36</string>
               <string>vstem 49 37</string>
               <string>vstem 235 38</string>
@@ -124,37 +125,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0001</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -15 37</string>
-              <string>hstem 112 109</string>
-              <string>hstem 399 92</string>
-              <string>hstem 609 36</string>
-              <string>vstem 49 37</string>
-              <string>vstem 235 38</string>
-              <string>vstem 507 37</string>
-              <string>vstem 672 37</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0013</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -15 37</string>
-              <string>hstem 120 101</string>
-              <string>hstem 465 26</string>
-              <string>hstem 609 36</string>
-              <string>vstem 49 37</string>
-              <string>vstem 235 38</string>
-              <string>vstem 507 37</string>
-              <string>vstem 672 37</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0027</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem -15 37</string>

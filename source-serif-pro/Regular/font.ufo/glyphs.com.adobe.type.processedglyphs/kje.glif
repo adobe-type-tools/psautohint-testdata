@@ -4,7 +4,7 @@
   <unicode hex="045C"/>
   <outline>
     <contour>
-      <point x="44" y="0" type="line" name="hintSet0000"/>
+      <point x="44" y="0" type="line" name="hintRef0000"/>
       <point x="272" y="0" type="line"/>
       <point x="272" y="36" type="line"/>
       <point x="203" y="50" type="line"/>
@@ -28,7 +28,7 @@
       <point x="398" y="195"/>
       <point x="362" y="227"/>
       <point x="295" y="241" type="curve"/>
-      <point x="333" y="256" name="hintSet0014"/>
+      <point x="333" y="256"/>
       <point x="355" y="285"/>
       <point x="373" y="340" type="curve"/>
       <point x="380" y="361"/>
@@ -50,10 +50,10 @@
       <point x="283" y="260"/>
       <point x="236" y="260" type="curve"/>
       <point x="201" y="260" type="line"/>
-      <point x="201" y="308" name="hintSet0022"/>
+      <point x="201" y="308"/>
       <point x="202" y="375"/>
       <point x="203" y="425" type="curve"/>
-      <point x="272" y="439" type="line"/>
+      <point x="272" y="439" type="line" name="hintRef0001"/>
       <point x="272" y="475" type="line"/>
       <point x="44" y="475" type="line"/>
       <point x="44" y="439" type="line"/>
@@ -94,18 +94,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 36</string>
-              <string>hstem 218 42</string>
-              <string>hstem 439 36</string>
-              <string>vstem 116 85</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0014</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 0 36</string>
@@ -116,7 +105,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0022</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem 0 36</string>

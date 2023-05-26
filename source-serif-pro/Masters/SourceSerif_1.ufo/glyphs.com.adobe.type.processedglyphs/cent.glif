@@ -4,7 +4,7 @@
   <unicode hex="00A2"/>
   <outline>
     <contour>
-      <point x="286" y="-45" type="line" name="hintSet0000"/>
+      <point x="286" y="-45" type="line" name="hintRef0000"/>
       <point x="286" y="660" type="line"/>
       <point x="246" y="660" type="line"/>
       <point x="246" y="-45" type="line"/>
@@ -31,7 +31,7 @@
       <point x="44" y="161"/>
       <point x="130" y="63"/>
       <point x="263" y="63" type="curve"/>
-      <point x="361" y="63"/>
+      <point x="361" y="63" name="hintRef0001"/>
       <point x="425" y="109"/>
       <point x="452" y="192" type="curve"/>
       <point x="428" y="204" type="line"/>
@@ -41,7 +41,7 @@
       <point x="189" y="126"/>
       <point x="127" y="197"/>
       <point x="127" y="323" type="curve"/>
-      <point x="127" y="451"/>
+      <point x="127" y="451" name="hintRef0002"/>
       <point x="189" y="523"/>
       <point x="273" y="523" type="curve"/>
     </contour>
@@ -54,13 +54,31 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
-              <string>hstem 63 63</string>
-              <string>hstem 523 45</string>
+              <string>hstem 63.9017 503.7356</string>
               <string>hstem 660 -20</string>
-              <string>vstem 44 83</string>
+              <string>vstem 246 40</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0001</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 63.9017 62.2065</string>
+              <string>hstem 660 -20</string>
+              <string>vstem 246 40</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0002</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 63.9017 503.7356</string>
+              <string>hstem 660 -20</string>
               <string>vstem 246 40</string>
             </array>
           </dict>

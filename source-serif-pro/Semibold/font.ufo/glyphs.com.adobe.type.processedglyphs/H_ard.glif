@@ -4,7 +4,7 @@
   <unicode hex="042A"/>
   <outline>
     <contour>
-      <point x="169" y="0" type="line" name="hintSet0000"/>
+      <point x="169" y="0" type="line" name="hintRef0000"/>
       <point x="438" y="0" type="line"/>
       <point x="652" y="0"/>
       <point x="722" y="97"/>
@@ -15,15 +15,15 @@
       <point x="441" y="398"/>
       <point x="413" y="397"/>
       <point x="384" y="394" type="curve"/>
-      <point x="384" y="462" name="hintSet0005"/>
+      <point x="384" y="462"/>
       <point x="384" y="535"/>
       <point x="386" y="607" type="curve"/>
       <point x="471" y="616" type="line"/>
-      <point x="471" y="663" type="line" name="hintSet0007"/>
+      <point x="471" y="663" type="line" name="hintRef0001"/>
       <point x="25" y="663" type="line"/>
-      <point x="20" y="481" type="line" name="hintSet0009"/>
+      <point x="20" y="481" type="line" name="hintRef0002"/>
       <point x="90" y="481" type="line"/>
-      <point x="110" y="610" type="line" name="hintSet0011"/>
+      <point x="110" y="610" type="line" name="hintRef0003"/>
       <point x="252" y="610" type="line"/>
       <point x="254" y="524"/>
       <point x="254" y="438"/>
@@ -43,11 +43,11 @@
       <point x="542" y="344"/>
       <point x="591" y="296"/>
       <point x="591" y="199" type="curve"/>
-      <point x="591" y="97" name="hintSet0021"/>
+      <point x="591" y="97" name="hintRef0004"/>
       <point x="531" y="52"/>
       <point x="429" y="52" type="curve"/>
       <point x="386" y="52" type="line"/>
-      <point x="384" y="138" name="hintSet0023"/>
+      <point x="384" y="138"/>
       <point x="384" y="224"/>
     </contour>
   </outline>
@@ -59,19 +59,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 52</string>
-              <string>hstem 344 54</string>
-              <string>hstem 610 53</string>
-              <string>vstem 254 130</string>
-              <string>vstem 591 131</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0005</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 0 52</string>
@@ -83,7 +71,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0007</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem 0 52</string>
@@ -96,7 +84,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0009</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem 0 52</string>
@@ -109,7 +97,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0011</string>
+            <string>hintRef0003</string>
             <key>stems</key>
             <array>
               <string>hstem 0 51.5</string>
@@ -122,25 +110,12 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0021</string>
+            <string>hintRef0004</string>
             <key>stems</key>
             <array>
               <string>hstem 0 52</string>
               <string>hstem 344 54</string>
               <string>hstem 610 53</string>
-              <string>vstem 254 130</string>
-              <string>vstem 591 131</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0023</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 51.5</string>
-              <string>hstem 344 54</string>
-              <string>hstem 610 53</string>
-              <string>vstem 22.5 87.5</string>
               <string>vstem 254 130</string>
               <string>vstem 591 131</string>
             </array>

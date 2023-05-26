@@ -4,7 +4,7 @@
   <unicode hex="0449"/>
   <outline>
     <contour>
-      <point x="669" y="0" type="line" name="hintSet0000"/>
+      <point x="669" y="0" type="line" name="hintRef0000"/>
       <point x="753" y="0"/>
       <point x="782" y="-80"/>
       <point x="795" y="-129" type="curve"/>
@@ -25,7 +25,7 @@
       <point x="820" y="404"/>
       <point x="820" y="425"/>
       <point x="814" y="431" type="curve"/>
-      <point x="784" y="430" name="flexCurve0009"/>
+      <point x="784" y="430" name="hintRef0001"/>
       <point x="746" y="429"/>
       <point x="706" y="429" type="curve"/>
       <point x="666" y="429"/>
@@ -52,7 +52,7 @@
       <point x="531" y="404"/>
       <point x="531" y="425"/>
       <point x="526" y="431" type="curve"/>
-      <point x="501" y="430" name="flexCurve0020"/>
+      <point x="501" y="430" name="hintRef0002"/>
       <point x="464" y="429"/>
       <point x="424" y="429" type="curve"/>
       <point x="384" y="429"/>
@@ -79,7 +79,7 @@
       <point x="253" y="404"/>
       <point x="253" y="425"/>
       <point x="248" y="431" type="curve"/>
-      <point x="223" y="430" name="flexCurve0031"/>
+      <point x="223" y="430" name="hintRef0003"/>
       <point x="186" y="429"/>
       <point x="146" y="429" type="curve"/>
       <point x="106" y="429"/>
@@ -109,15 +109,15 @@
       <dict>
         <key>flexList</key>
         <array>
-          <string>flexCurve0009</string>
-          <string>flexCurve0020</string>
-          <string>flexCurve0031</string>
+          <string>hintRef0001</string>
+          <string>hintRef0002</string>
+          <string>hintRef0003</string>
         </array>
         <key>hintSetList</key>
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 0 39</string>
@@ -125,6 +125,7 @@
               <string>vstem 107 79</string>
               <string>vstem 385 79</string>
               <string>vstem 667 79</string>
+              <string>vstem 795 23</string>
             </array>
           </dict>
         </array>

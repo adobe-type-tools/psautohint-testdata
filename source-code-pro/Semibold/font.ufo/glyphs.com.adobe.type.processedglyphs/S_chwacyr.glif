@@ -4,7 +4,7 @@
   <unicode hex="04D8"/>
   <outline>
     <contour>
-      <point x="302" y="-12" type="curve" name="hintSet0000"/>
+      <point x="302" y="-12" type="curve" name="hintRef0000"/>
       <point x="451" y="-12"/>
       <point x="555" y="117"/>
       <point x="555" y="328" type="curve"/>
@@ -18,14 +18,14 @@
       <point x="202" y="544"/>
       <point x="242" y="566"/>
       <point x="292" y="566" type="curve"/>
-      <point x="382" y="566" name="hintSet0006"/>
+      <point x="382" y="566"/>
       <point x="432" y="497"/>
       <point x="439" y="361" type="curve"/>
       <point x="56" y="361" type="line"/>
       <point x="55" y="349"/>
       <point x="54" y="337"/>
       <point x="54" y="325" type="curve"/>
-      <point x="54" y="118" name="hintSet0009"/>
+      <point x="54" y="118"/>
       <point x="154" y="-12"/>
     </contour>
     <contour>
@@ -33,7 +33,7 @@
       <point x="228" y="88"/>
       <point x="178" y="143"/>
       <point x="168" y="275" type="curve"/>
-      <point x="438" y="275" type="line"/>
+      <point x="438" y="275" type="line" name="hintRef0001"/>
       <point x="427" y="143"/>
       <point x="375" y="88"/>
     </contour>
@@ -46,19 +46,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -12 100</string>
-              <string>hstem 275 86</string>
-              <string>hstem 566 100</string>
-              <string>vstem 54 114</string>
-              <string>vstem 438 117</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0006</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -12 100</string>
@@ -70,7 +58,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0009</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem -12 100</string>

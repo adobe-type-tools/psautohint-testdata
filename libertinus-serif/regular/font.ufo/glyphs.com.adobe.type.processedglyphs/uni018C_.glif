@@ -4,7 +4,7 @@
   <unicode hex="018C"/>
   <outline>
     <contour>
-      <point x="350" y="124" type="line" name="hintSet0000"/>
+      <point x="350" y="124" type="line" name="hintRef0000"/>
       <point x="350" y="105"/>
       <point x="348" y="97"/>
       <point x="334" y="85" type="curve"/>
@@ -73,7 +73,7 @@
       <point x="370" y="-13"/>
       <point x="373" y="-12"/>
       <point x="381" y="-10" type="curve"/>
-      <point x="403" y="8" name="hintSet0027"/>
+      <point x="403" y="8" name="hintRef0001"/>
       <point x="441" y="23"/>
       <point x="502" y="30" type="curve"/>
       <point x="508" y="36"/>
@@ -86,7 +86,7 @@
       <point x="429" y="648"/>
       <point x="433" y="688"/>
       <point x="433" y="688" type="curve"/>
-      <point x="433" y="695" name="hintSet0032"/>
+      <point x="433" y="695"/>
       <point x="429" y="698"/>
     </contour>
   </outline>
@@ -98,7 +98,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -10 47</string>
@@ -110,24 +110,12 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0027</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem 30 27</string>
               <string>hstem 404 35</string>
               <string>hstem 688 10</string>
-              <string>vstem 44 86</string>
-              <string>vstem 350 79</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0032</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -10 47</string>
-              <string>hstem 404 35</string>
-              <string>hstem 654 34</string>
               <string>vstem 44 86</string>
               <string>vstem 350 79</string>
             </array>

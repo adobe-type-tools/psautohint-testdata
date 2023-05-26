@@ -4,7 +4,7 @@
   <unicode hex="0432"/>
   <outline>
     <contour>
-      <point x="37" y="0" type="line" name="hintSet0000"/>
+      <point x="37" y="0" type="line" name="hintRef0000"/>
       <point x="296" y="0" type="line"/>
       <point x="453" y="0"/>
       <point x="504" y="66"/>
@@ -12,14 +12,14 @@
       <point x="504" y="193"/>
       <point x="465" y="240"/>
       <point x="370" y="253" type="curve"/>
-      <point x="452" y="269" name="hintSet0004"/>
+      <point x="452" y="269" name="hintRef0001"/>
       <point x="481" y="313"/>
       <point x="481" y="364" type="curve"/>
       <point x="481" y="430"/>
       <point x="429" y="479"/>
       <point x="316" y="479" type="curve"/>
       <point x="37" y="479" type="line"/>
-      <point x="37" y="438" type="line" name="hintSet0007"/>
+      <point x="37" y="438" type="line"/>
       <point x="99" y="426" type="line"/>
       <point x="100" y="377"/>
       <point x="100" y="313"/>
@@ -31,7 +31,7 @@
       <point x="37" y="41" type="line"/>
     </contour>
     <contour>
-      <point x="280" y="431" type="line" name="hintSet0013"/>
+      <point x="280" y="431" type="line"/>
       <point x="338" y="431"/>
       <point x="367" y="408"/>
       <point x="367" y="356" type="curve"/>
@@ -47,14 +47,14 @@
       <point x="217" y="210" type="curve"/>
       <point x="217" y="229" type="line"/>
       <point x="273" y="229" type="line"/>
-      <point x="350" y="229" name="hintSet0021"/>
+      <point x="350" y="229" name="hintRef0002"/>
       <point x="385" y="196"/>
       <point x="385" y="133" type="curve"/>
       <point x="385" y="77"/>
       <point x="348" y="48"/>
       <point x="277" y="48" type="curve"/>
       <point x="219" y="48" type="line"/>
-      <point x="218" y="98" name="hintSet0024"/>
+      <point x="218" y="98"/>
       <point x="217" y="164"/>
     </contour>
   </outline>
@@ -66,7 +66,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 0 48</string>
@@ -78,7 +78,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0004</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem 0 48</string>
@@ -90,31 +90,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0007</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 48</string>
-              <string>hstem 229 43</string>
-              <string>hstem 438 41</string>
-              <string>vstem 100 117</string>
-              <string>vstem 385 119</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0013</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 48</string>
-              <string>hstem 229 43</string>
-              <string>hstem 431 48</string>
-              <string>vstem 100 117</string>
-              <string>vstem 367 114</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0021</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem 0 48</string>
@@ -122,18 +98,6 @@
               <string>hstem 431 48</string>
               <string>vstem 100 117</string>
               <string>vstem 385 119</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0024</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 48</string>
-              <string>hstem 229 43</string>
-              <string>hstem 431 48</string>
-              <string>vstem 100 117</string>
-              <string>vstem 367 114</string>
             </array>
           </dict>
         </array>

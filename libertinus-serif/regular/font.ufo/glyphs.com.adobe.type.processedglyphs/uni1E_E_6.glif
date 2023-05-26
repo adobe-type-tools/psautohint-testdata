@@ -4,14 +4,14 @@
   <unicode hex="1EE6"/>
   <outline>
     <contour>
-      <point x="172" y="523" type="line" name="hintSet0000"/>
+      <point x="172" y="523" type="line" name="hintRef0000"/>
       <point x="172" y="606"/>
       <point x="187" y="611"/>
       <point x="264" y="614" type="curve"/>
       <point x="270" y="620"/>
       <point x="270" y="641"/>
       <point x="264" y="647" type="curve"/>
-      <point x="217" y="646" name="flexCurve0003"/>
+      <point x="217" y="646" name="hintRef0001"/>
       <point x="168" y="645"/>
       <point x="129" y="645" type="curve"/>
       <point x="90" y="645"/>
@@ -37,7 +37,7 @@
       <point x="658" y="620"/>
       <point x="658" y="641"/>
       <point x="652" y="647" type="curve"/>
-      <point x="614" y="646" name="flexCurve0013"/>
+      <point x="614" y="646" name="hintRef0002"/>
       <point x="573" y="645"/>
       <point x="550" y="645" type="curve"/>
       <point x="529" y="645"/>
@@ -61,7 +61,7 @@
       <point x="172" y="266" type="curve"/>
     </contour>
     <contour>
-      <point x="424" y="759" type="curve" name="hintSet0021"/>
+      <point x="424" y="759" type="curve"/>
       <point x="424" y="775"/>
       <point x="409" y="815"/>
       <point x="345" y="815" type="curve"/>
@@ -89,14 +89,14 @@
       <point x="372" y="742"/>
       <point x="364" y="734"/>
       <point x="355" y="725" type="curve"/>
-      <point x="343" y="713" name="hintSet0031"/>
+      <point x="343" y="713" name="hintRef0003"/>
       <point x="330" y="699"/>
       <point x="330" y="666" type="curve"/>
       <point x="356" y="666" type="line"/>
       <point x="358" y="691"/>
       <point x="373" y="703"/>
       <point x="391" y="715" type="curve"/>
-      <point x="408" y="726" name="hintSet0034"/>
+      <point x="408" y="726"/>
       <point x="424" y="737"/>
     </contour>
   </outline>
@@ -106,27 +106,14 @@
       <dict>
         <key>flexList</key>
         <array>
-          <string>flexCurve0003</string>
-          <string>flexCurve0013</string>
+          <string>hintRef0001</string>
+          <string>hintRef0002</string>
         </array>
         <key>hintSetList</key>
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -10 41</string>
-              <string>hstem 614 33</string>
-              <string>hstem 791 24</string>
-              <string>vstem 87 85</string>
-              <string>vstem 330 26</string>
-              <string>vstem 526 49</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0021</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -10 41</string>
@@ -134,14 +121,13 @@
               <string>hstem 791 24</string>
               <string>vstem 87 85</string>
               <string>vstem 263 54</string>
-              <string>vstem 330 26</string>
               <string>vstem 372 52</string>
               <string>vstem 526 49</string>
             </array>
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0031</string>
+            <string>hintRef0003</string>
             <key>stems</key>
             <array>
               <string>hstem -10 41</string>
@@ -149,21 +135,6 @@
               <string>hstem 791 24</string>
               <string>vstem 87 85</string>
               <string>vstem 330 26</string>
-              <string>vstem 526 49</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0034</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -10 41</string>
-              <string>hstem 614 33</string>
-              <string>hstem 791 24</string>
-              <string>vstem 87 85</string>
-              <string>vstem 263 54</string>
-              <string>vstem 330 26</string>
-              <string>vstem 372 52</string>
               <string>vstem 526 49</string>
             </array>
           </dict>

@@ -4,14 +4,14 @@
   <unicode hex="222B"/>
   <outline>
     <contour>
-      <point x="258" y="-158" type="curve" name="hintSet0000"/>
+      <point x="258" y="-158" type="curve" name="hintRef0000"/>
       <point x="337" y="-158"/>
       <point x="354" y="-66"/>
       <point x="354" y="56" type="curve"/>
-      <point x="354" y="189" name="hintSet0002"/>
+      <point x="354" y="189"/>
       <point x="309" y="437"/>
       <point x="309" y="576" type="curve"/>
-      <point x="309" y="687"/>
+      <point x="309" y="687" name="hintRef0001"/>
       <point x="320" y="761"/>
       <point x="378" y="761" type="curve"/>
       <point x="392" y="761"/>
@@ -24,10 +24,10 @@
       <point x="300" y="788"/>
       <point x="283" y="694"/>
       <point x="283" y="574" type="curve"/>
-      <point x="283" y="441" name="hintSet0008"/>
+      <point x="283" y="441"/>
       <point x="328" y="191"/>
       <point x="328" y="52" type="curve"/>
-      <point x="328" y="-59"/>
+      <point x="328" y="-59" name="hintRef0002"/>
       <point x="318" y="-131"/>
       <point x="258" y="-131" type="curve"/>
       <point x="244" y="-131"/>
@@ -46,7 +46,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -158 27</string>
@@ -56,18 +56,17 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0002</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem -158 27</string>
               <string>hstem 761 27</string>
               <string>vstem 283 26</string>
-              <string>vstem 328 26</string>
             </array>
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0008</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem -158 27</string>

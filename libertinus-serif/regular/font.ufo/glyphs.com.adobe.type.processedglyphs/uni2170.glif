@@ -4,7 +4,7 @@
   <unicode hex="2170"/>
   <outline>
     <contour>
-      <point x="85" y="542" type="curve" name="hintSet0000"/>
+      <point x="85" y="542" type="curve" name="hintRef0000"/>
       <point x="85" y="516"/>
       <point x="109" y="490"/>
       <point x="133" y="490" type="curve"/>
@@ -18,14 +18,14 @@
       <point x="85" y="566"/>
     </contour>
     <contour>
-      <point x="176" y="307" type="line" name="hintSet0005"/>
+      <point x="176" y="307" type="line" name="hintRef0001"/>
       <point x="176" y="390"/>
       <point x="187" y="393"/>
       <point x="248" y="398" type="curve"/>
       <point x="254" y="404"/>
       <point x="254" y="425"/>
       <point x="248" y="431" type="curve"/>
-      <point x="214" y="430" name="flexCurve0008"/>
+      <point x="214" y="430" name="hintRef0002"/>
       <point x="180" y="429"/>
       <point x="136" y="429" type="curve"/>
       <point x="93" y="429"/>
@@ -44,7 +44,7 @@
       <point x="19" y="25"/>
       <point x="19" y="4"/>
       <point x="25" y="-2" type="curve"/>
-      <point x="58" y="-1" name="flexCurve0015"/>
+      <point x="58" y="-1" name="hintRef0003"/>
       <point x="93" y="0"/>
       <point x="137" y="0" type="curve"/>
       <point x="180" y="0"/>
@@ -64,14 +64,14 @@
       <dict>
         <key>flexList</key>
         <array>
-          <string>flexCurve0008</string>
-          <string>flexCurve0015</string>
+          <string>hintRef0002</string>
+          <string>hintRef0003</string>
         </array>
         <key>hintSetList</key>
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 19 -21</string>
@@ -82,7 +82,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0005</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem 19 -21</string>

@@ -3,7 +3,7 @@
   <advance width="489"/>
   <outline>
     <contour>
-      <point x="342" y="362" type="curve" name="hintSet0000"/>
+      <point x="342" y="362" type="curve" name="hintRef0000"/>
       <point x="270" y="236" type="line"/>
       <point x="268" y="236" type="line"/>
       <point x="192" y="362" type="line"/>
@@ -13,7 +13,7 @@
       <point x="222" y="435"/>
       <point x="222" y="456"/>
       <point x="216" y="462" type="curve"/>
-      <point x="182" y="461" name="flexCurve0006"/>
+      <point x="182" y="461" name="hintRef0001"/>
       <point x="147" y="460"/>
       <point x="110" y="460" type="curve"/>
       <point x="81" y="460"/>
@@ -36,7 +36,7 @@
       <point x="132" y="25"/>
       <point x="132" y="4"/>
       <point x="138" y="-2" type="curve"/>
-      <point x="175" y="-1" name="flexCurve0015"/>
+      <point x="175" y="-1" name="hintRef0002"/>
       <point x="214" y="0"/>
       <point x="250" y="0" type="curve"/>
       <point x="286" y="0"/>
@@ -59,7 +59,7 @@
       <point x="473" y="435"/>
       <point x="473" y="456"/>
       <point x="467" y="462" type="curve"/>
-      <point x="445" y="461" name="flexCurve0024"/>
+      <point x="445" y="461" name="hintRef0003"/>
       <point x="422" y="460"/>
       <point x="396" y="460" type="curve"/>
       <point x="359" y="460"/>
@@ -78,22 +78,22 @@
       <dict>
         <key>flexList</key>
         <array>
-          <string>flexCurve0006</string>
-          <string>flexCurve0015</string>
-          <string>flexCurve0024</string>
+          <string>hintRef0001</string>
+          <string>hintRef0002</string>
+          <string>hintRef0003</string>
         </array>
         <key>hintSetList</key>
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 19 -21</string>
               <string>hstem 429 33</string>
               <string>vstem 18 154</string>
               <string>vstem 209 81</string>
-              <string>vstem 359 113</string>
+              <string>vstem 360 112</string>
             </array>
           </dict>
         </array>

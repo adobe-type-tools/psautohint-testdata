@@ -4,7 +4,7 @@
   <unicode hex="046A"/>
   <outline>
     <contour>
-      <point x="370" y="323" type="curve" name="hintSet0000"/>
+      <point x="370" y="323" type="curve" name="hintRef0000"/>
       <point x="417" y="323" type="line"/>
       <point x="417" y="71" type="line"/>
       <point x="417" y="43"/>
@@ -16,7 +16,7 @@
       <point x="338" y="19" type="curve"/>
       <point x="338" y="0" type="line"/>
       <point x="340" y="-2" type="line"/>
-      <point x="340" y="-2" name="flexCurve0008"/>
+      <point x="340" y="-2" name="hintRef0001"/>
       <point x="423" y="0"/>
       <point x="459" y="0" type="curve"/>
       <point x="498" y="0"/>
@@ -46,7 +46,7 @@
       <point x="677" y="19" type="curve"/>
       <point x="677" y="0" type="line"/>
       <point x="679" y="-2" type="line"/>
-      <point x="679" y="-2" name="flexCurve0024"/>
+      <point x="679" y="-2" name="hintRef0002"/>
       <point x="768" y="0"/>
       <point x="803" y="0" type="curve"/>
       <point x="842" y="0"/>
@@ -89,7 +89,7 @@
       <point x="5" y="19" type="curve"/>
       <point x="5" y="0" type="line"/>
       <point x="7" y="-2" type="line"/>
-      <point x="7" y="-2" name="flexCurve0047"/>
+      <point x="7" y="-2" name="hintRef0003"/>
       <point x="79" y="0"/>
       <point x="118" y="0" type="curve"/>
       <point x="154" y="0"/>
@@ -120,21 +120,21 @@
       <dict>
         <key>flexList</key>
         <array>
-          <string>flexCurve0008</string>
-          <string>flexCurve0024</string>
-          <string>flexCurve0047</string>
+          <string>hintRef0001</string>
+          <string>hintRef0002</string>
+          <string>hintRef0003</string>
         </array>
         <key>hintSetList</key>
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -2 29</string>
               <string>hstem 323 39</string>
               <string>hstem 610 35</string>
-              <string>vstem 5 161</string>
+              <string>vstem 5 162</string>
               <string>vstem 417 81</string>
               <string>vstem 755 162</string>
             </array>

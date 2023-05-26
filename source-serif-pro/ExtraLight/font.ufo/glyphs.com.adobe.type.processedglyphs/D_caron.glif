@@ -4,12 +4,12 @@
   <unicode hex="010E"/>
   <outline>
     <contour>
-      <point x="167" y="340" type="line" name="hintSet0000"/>
-      <point x="167" y="218" name="hintSet0001"/>
+      <point x="167" y="340" type="line" name="hintRef0000"/>
+      <point x="167" y="218"/>
       <point x="167" y="120"/>
       <point x="165" y="26" type="curve"/>
       <point x="58" y="20" type="line"/>
-      <point x="58" y="0" type="line" name="hintSet0003"/>
+      <point x="58" y="0" type="line" name="hintRef0001"/>
       <point x="306" y="0" type="line"/>
       <point x="527" y="0"/>
       <point x="645" y="135"/>
@@ -18,7 +18,7 @@
       <point x="525" y="677"/>
       <point x="315" y="677" type="curve"/>
       <point x="58" y="677" type="line"/>
-      <point x="58" y="657" type="line" name="hintSet0008"/>
+      <point x="58" y="657" type="line" name="hintRef0002"/>
       <point x="165" y="651" type="line"/>
       <point x="167" y="557"/>
       <point x="167" y="461"/>
@@ -27,7 +27,7 @@
     <contour>
       <point x="197" y="340" type="curve"/>
       <point x="197" y="355" type="line"/>
-      <point x="197" y="463" name="hintSet0013"/>
+      <point x="197" y="463" name="hintRef0003"/>
       <point x="197" y="560"/>
       <point x="199" y="655" type="curve"/>
       <point x="308" y="655" type="line"/>
@@ -38,13 +38,13 @@
       <point x="510" y="22"/>
       <point x="293" y="22" type="curve"/>
       <point x="199" y="22" type="line"/>
-      <point x="197" y="117" name="hintSet0018"/>
+      <point x="197" y="117"/>
       <point x="197" y="216"/>
     </contour>
     <contour>
       <point x="212" y="865" type="line"/>
       <point x="201" y="854" type="line"/>
-      <point x="312" y="740" type="line" name="hintSet0021"/>
+      <point x="312" y="740" type="line"/>
       <point x="332" y="740" type="line"/>
       <point x="443" y="854" type="line"/>
       <point x="432" y="865" type="line"/>
@@ -59,18 +59,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 22</string>
-              <string>hstem 655 22</string>
-              <string>vstem 167 30</string>
-              <string>vstem 613 32</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0001</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 0 23</string>
@@ -81,7 +70,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0003</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem 0 22</string>
@@ -92,7 +81,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0008</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem 0 22</string>
@@ -103,29 +92,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0013</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 22</string>
-              <string>hstem 655 22</string>
-              <string>vstem 167 30</string>
-              <string>vstem 613 32</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0018</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 22</string>
-              <string>hstem 654 23</string>
-              <string>vstem 167 30</string>
-              <string>vstem 613 32</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0021</string>
+            <string>hintRef0003</string>
             <key>stems</key>
             <array>
               <string>hstem 0 22</string>

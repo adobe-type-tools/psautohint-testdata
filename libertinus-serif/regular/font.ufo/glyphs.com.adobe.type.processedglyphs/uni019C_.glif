@@ -4,7 +4,7 @@
   <unicode hex="019C"/>
   <outline>
     <contour>
-      <point x="766" y="116" type="curve" name="hintSet0000"/>
+      <point x="766" y="116" type="curve" name="hintRef0000"/>
       <point x="766" y="574" type="line"/>
       <point x="766" y="602"/>
       <point x="781" y="613"/>
@@ -15,7 +15,7 @@
       <point x="855" y="626" type="curve"/>
       <point x="855" y="645" type="line"/>
       <point x="853" y="647" type="line"/>
-      <point x="804" y="646" name="flexCurve0007"/>
+      <point x="804" y="646" name="hintRef0001"/>
       <point x="775" y="645"/>
       <point x="725" y="645" type="curve"/>
       <point x="677" y="645"/>
@@ -47,7 +47,7 @@
       <point x="558" y="626" type="curve"/>
       <point x="558" y="645" type="line"/>
       <point x="556" y="647" type="line"/>
-      <point x="507" y="646" name="flexCurve0023"/>
+      <point x="507" y="646" name="hintRef0002"/>
       <point x="481" y="645"/>
       <point x="433" y="645" type="curve"/>
       <point x="385" y="645"/>
@@ -82,7 +82,7 @@
       <point x="266" y="626" type="curve"/>
       <point x="266" y="645" type="line"/>
       <point x="264" y="647" type="line"/>
-      <point x="215" y="646" name="flexCurve0040"/>
+      <point x="215" y="646" name="hintRef0003"/>
       <point x="189" y="645"/>
       <point x="141" y="645" type="curve"/>
       <point x="91" y="645"/>
@@ -128,19 +128,19 @@
       <dict>
         <key>flexList</key>
         <array>
-          <string>flexCurve0007</string>
-          <string>flexCurve0023</string>
-          <string>flexCurve0040</string>
+          <string>hintRef0001</string>
+          <string>hintRef0002</string>
+          <string>hintRef0003</string>
         </array>
         <key>hintSetList</key>
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -12 48</string>
-              <string>hstem 618 29</string>
+              <string>hstem 618 27</string>
               <string>vstem 101 81</string>
               <string>vstem 393 81</string>
               <string>vstem 685 81</string>

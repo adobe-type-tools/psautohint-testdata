@@ -4,7 +4,7 @@
   <unicode hex="2049"/>
   <outline>
     <contour>
-      <point x="158" y="-14" type="curve" name="hintSet0000"/>
+      <point x="158" y="-14" type="curve" name="hintRef0000"/>
       <point x="202" y="-14"/>
       <point x="237" y="21"/>
       <point x="237" y="64" type="curve"/>
@@ -18,8 +18,8 @@
       <point x="115" y="-14"/>
     </contour>
     <contour>
-      <point x="158" y="676" type="curve" name="hintSet0005"/>
-      <point x="112" y="676"/>
+      <point x="158" y="676" type="curve"/>
+      <point x="112" y="676" name="hintRef0001"/>
       <point x="83" y="651"/>
       <point x="83" y="598" type="curve"/>
       <point x="83" y="562"/>
@@ -66,8 +66,8 @@
       <point x="585" y="449"/>
       <point x="568" y="431"/>
       <point x="533" y="421" type="curve"/>
-      <point x="467" y="403" type="line" name="hintSet0025"/>
-      <point x="410" y="387"/>
+      <point x="467" y="403" type="line"/>
+      <point x="410" y="387" name="hintRef0002"/>
       <point x="388" y="369"/>
       <point x="388" y="336" type="curve"/>
       <point x="388" y="319"/>
@@ -80,7 +80,7 @@
       <point x="471" y="300"/>
       <point x="509" y="311" type="curve"/>
       <point x="547" y="324" type="line"/>
-      <point x="619" y="346" name="hintSet0033"/>
+      <point x="619" y="346"/>
       <point x="651" y="388"/>
     </contour>
   </outline>
@@ -92,7 +92,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -14 156</string>
@@ -103,7 +103,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0005</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem -14 156</string>
@@ -114,23 +114,12 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0025</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem -14 156</string>
               <string>vstem 83 151</string>
               <string>vstem 388 75.5</string>
-              <string>vstem 585 66</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0033</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -14 156</string>
-              <string>vstem 83 151</string>
-              <string>vstem 363 158</string>
               <string>vstem 585 66</string>
             </array>
           </dict>
