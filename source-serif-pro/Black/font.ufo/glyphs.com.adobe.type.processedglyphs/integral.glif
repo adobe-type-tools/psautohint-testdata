@@ -4,7 +4,7 @@
   <unicode hex="222B"/>
   <outline>
     <contour>
-      <point x="99" y="273" type="curve" name="hintSet0000"/>
+      <point x="99" y="273" type="curve" name="hintRef0000"/>
       <point x="117" y="115"/>
       <point x="127" y="78"/>
       <point x="127" y="16" type="curve"/>
@@ -14,17 +14,17 @@
       <point x="83" y="-128"/>
       <point x="73" y="-138"/>
       <point x="60" y="-146" type="curve"/>
-      <point x="48" y="-108" type="line" name="hintSet0004"/>
+      <point x="48" y="-108" type="line"/>
       <point x="31" y="-51"/>
       <point x="6" y="-42"/>
       <point x="-22" y="-42" type="curve"/>
       <point x="-59" y="-42"/>
       <point x="-80" y="-70"/>
       <point x="-80" y="-119" type="curve"/>
-      <point x="-58" y="-173"/>
+      <point x="-58" y="-173" name="hintRef0001"/>
       <point x="-18" y="-202"/>
       <point x="52" y="-202" type="curve"/>
-      <point x="85" y="-202"/>
+      <point x="85" y="-202" name="hintRef0002"/>
       <point x="163" y="-191"/>
       <point x="218" y="-140" type="curve"/>
       <point x="270" y="-93"/>
@@ -33,7 +33,7 @@
       <point x="299" y="119"/>
       <point x="296" y="179"/>
       <point x="284" y="284" type="curve"/>
-      <point x="267" y="442" name="hintSet0011"/>
+      <point x="267" y="442" name="hintRef0003"/>
       <point x="256" y="479"/>
       <point x="256" y="541" type="curve"/>
       <point x="256" y="584"/>
@@ -49,16 +49,16 @@
       <point x="442" y="599"/>
       <point x="463" y="627"/>
       <point x="463" y="676" type="curve"/>
-      <point x="441" y="730"/>
+      <point x="441" y="730" name="hintRef0004"/>
       <point x="401" y="759"/>
       <point x="331" y="759" type="curve"/>
-      <point x="298" y="759"/>
+      <point x="298" y="759" name="hintRef0005"/>
       <point x="220" y="748"/>
       <point x="165" y="697" type="curve"/>
       <point x="113" y="650"/>
       <point x="84" y="579"/>
       <point x="84" y="480" type="curve"/>
-      <point x="84" y="438" name="hintSet0020"/>
+      <point x="84" y="438"/>
       <point x="88" y="378"/>
     </contour>
   </outline>
@@ -70,16 +70,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -202 961</string>
-              <string>vstem 127 172</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0004</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -202 160</string>
@@ -88,7 +79,25 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0011</string>
+            <string>hintRef0001</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -202 961</string>
+              <string>vstem 84 172</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0002</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -202 160</string>
+              <string>vstem 127 172</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0003</string>
             <key>stems</key>
             <array>
               <string>hstem 599 160</string>
@@ -97,11 +106,20 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0020</string>
+            <string>hintRef0004</string>
             <key>stems</key>
             <array>
               <string>hstem -202 961</string>
               <string>vstem 127 172</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0005</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 599 160</string>
+              <string>vstem 84 172</string>
             </array>
           </dict>
         </array>

@@ -3,21 +3,21 @@
   <advance width="600"/>
   <outline>
     <contour>
-      <point x="247" y="272" type="line" name="hintSet0000"/>
-      <point x="323" y="299" name="hintSet0001"/>
+      <point x="247" y="272" type="line" name="hintRef0000"/>
+      <point x="323" y="299"/>
       <point x="371" y="351"/>
       <point x="371" y="424" type="curve"/>
       <point x="371" y="459"/>
       <point x="351" y="481"/>
       <point x="324" y="481" type="curve"/>
-      <point x="294" y="481"/>
+      <point x="294" y="481" name="hintRef0001"/>
       <point x="271" y="463"/>
       <point x="271" y="429" type="curve"/>
-      <point x="271" y="405"/>
+      <point x="271" y="405" name="hintRef0002"/>
       <point x="289" y="389"/>
       <point x="311" y="389" type="curve"/>
       <point x="315" y="389" type="line"/>
-      <point x="309" y="353" name="hintSet0006"/>
+      <point x="309" y="353" name="hintRef0003"/>
       <point x="280" y="329"/>
       <point x="236" y="312" type="curve"/>
     </contour>
@@ -30,7 +30,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 272 209</string>
@@ -39,7 +39,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0001</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem 389 92</string>
@@ -48,7 +48,16 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0006</string>
+            <string>hintRef0002</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 389 92</string>
+              <string>vstem 271 100</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0003</string>
             <key>stems</key>
             <array>
               <string>hstem 272 209</string>

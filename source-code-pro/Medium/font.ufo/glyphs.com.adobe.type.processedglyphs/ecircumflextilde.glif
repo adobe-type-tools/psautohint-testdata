@@ -4,7 +4,7 @@
   <unicode hex="1EC5"/>
   <outline>
     <contour>
-      <point x="330" y="-12" type="curve" name="hintSet0000"/>
+      <point x="330" y="-12" type="curve" name="hintRef0000"/>
       <point x="405" y="-12"/>
       <point x="470" y="13"/>
       <point x="520" y="46" type="curve"/>
@@ -38,7 +38,7 @@
       <point x="244" y="423"/>
     </contour>
     <contour>
-      <point x="210" y="569" type="line" name="hintSet0014"/>
+      <point x="210" y="569" type="line"/>
       <point x="313" y="635" type="line"/>
       <point x="317" y="635" type="line"/>
       <point x="420" y="569" type="line"/>
@@ -48,15 +48,15 @@
       <point x="177" y="608" type="line"/>
     </contour>
     <contour>
-      <point x="378" y="712" type="curve" name="hintSet0022"/>
-      <point x="426" y="712"/>
+      <point x="378" y="712" type="curve"/>
+      <point x="426" y="712" name="hintRef0001"/>
       <point x="449" y="748"/>
       <point x="455" y="806" type="curve"/>
       <point x="405" y="811" type="line"/>
       <point x="400" y="783"/>
       <point x="392" y="770"/>
       <point x="373" y="770" type="curve"/>
-      <point x="337" y="770" name="hintSet0026"/>
+      <point x="337" y="770" name="hintRef0002"/>
       <point x="309" y="812"/>
       <point x="252" y="812" type="curve"/>
       <point x="204" y="812"/>
@@ -66,7 +66,7 @@
       <point x="230" y="741"/>
       <point x="238" y="754"/>
       <point x="257" y="754" type="curve"/>
-      <point x="292" y="754" name="hintSet0030"/>
+      <point x="292" y="754"/>
       <point x="321" y="712"/>
     </contour>
   </outline>
@@ -78,21 +78,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -12 78</string>
-              <string>hstem 216 73</string>
-              <string>hstem 423 78</string>
-              <string>hstem 718 -20</string>
-              <string>hstem 754 58</string>
-              <string>vstem 65 99</string>
-              <string>vstem 451 89</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0014</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -12 78</string>
@@ -106,7 +92,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0022</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem -12 78</string>
@@ -114,12 +100,12 @@
               <string>hstem 423 78</string>
               <string>hstem 712 58</string>
               <string>vstem 65 99</string>
-              <string>vstem 405 50</string>
+              <string>vstem 451 89</string>
             </array>
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0026</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem -12 78</string>
@@ -128,21 +114,7 @@
               <string>hstem 718 -20</string>
               <string>hstem 754 58</string>
               <string>vstem 65 99</string>
-              <string>vstem 175 50</string>
               <string>vstem 451 89</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0030</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -12 78</string>
-              <string>hstem 216 73</string>
-              <string>hstem 423 78</string>
-              <string>hstem 712 58</string>
-              <string>vstem 65 99</string>
-              <string>vstem 405 50</string>
             </array>
           </dict>
         </array>

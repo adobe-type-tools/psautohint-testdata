@@ -3,22 +3,22 @@
   <advance width="600"/>
   <outline>
     <contour>
-      <point x="291" y="460" type="curve" name="hintSet0000"/>
+      <point x="291" y="460" type="curve" name="hintRef0000"/>
       <point x="255" y="460"/>
       <point x="238" y="479"/>
       <point x="238" y="507" type="curve"/>
       <point x="238" y="536"/>
       <point x="257" y="556"/>
       <point x="290" y="556" type="curve"/>
-      <point x="320" y="556" name="hintSet0003"/>
+      <point x="320" y="556" name="hintRef0001"/>
       <point x="351" y="537"/>
       <point x="358" y="489" type="curve"/>
-      <point x="338" y="469" name="hintSet0004"/>
+      <point x="338" y="469"/>
       <point x="316" y="460"/>
     </contour>
     <contour>
       <point x="272" y="282" type="curve"/>
-      <point x="367" y="282"/>
+      <point x="367" y="282" name="hintRef0002"/>
       <point x="429" y="349"/>
       <point x="429" y="457" type="curve"/>
       <point x="429" y="552"/>
@@ -52,12 +52,11 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 282 57</string>
               <string>hstem 412 48</string>
-              <string>hstem 489 -20</string>
               <string>hstem 556 57</string>
               <string>vstem 170 68</string>
               <string>vstem 359 70</string>
@@ -65,7 +64,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0003</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem 282 57</string>
@@ -77,12 +76,11 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0004</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem 282 57</string>
               <string>hstem 412 48</string>
-              <string>hstem 489 -20</string>
               <string>hstem 556 57</string>
               <string>vstem 170 68</string>
               <string>vstem 359 70</string>

@@ -3,7 +3,7 @@
   <advance width="600"/>
   <outline>
     <contour>
-      <point x="256" y="594" type="curve" name="hintSet0000"/>
+      <point x="256" y="594" type="curve" name="hintRef0000"/>
       <point x="284" y="594"/>
       <point x="306" y="617"/>
       <point x="306" y="645" type="curve"/>
@@ -17,14 +17,14 @@
       <point x="238" y="594"/>
     </contour>
     <contour>
-      <point x="310" y="563" type="line" name="hintSet0005"/>
+      <point x="310" y="563" type="line" name="hintRef0001"/>
       <point x="352" y="563" type="line"/>
-      <point x="451" y="739" type="line" name="hintSet0007"/>
+      <point x="451" y="739" type="line"/>
       <point x="380" y="739" type="line"/>
     </contour>
     <contour>
       <point x="463" y="594" type="curve"/>
-      <point x="491" y="594"/>
+      <point x="491" y="594" name="hintRef0002"/>
       <point x="513" y="617"/>
       <point x="513" y="645" type="curve"/>
       <point x="513" y="667"/>
@@ -45,7 +45,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 594 85</string>
@@ -55,20 +55,20 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0005</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
-              <string>hstem 563 116</string>
+              <string>hstem 563 176</string>
               <string>vstem 221 85</string>
               <string>vstem 428 85</string>
             </array>
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0007</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
-              <string>hstem 594 145</string>
+              <string>hstem 594 85</string>
               <string>vstem 221 85</string>
               <string>vstem 428 85</string>
             </array>

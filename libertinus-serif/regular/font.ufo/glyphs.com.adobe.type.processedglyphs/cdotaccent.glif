@@ -4,7 +4,7 @@
   <unicode hex="010B"/>
   <outline>
     <contour>
-      <point x="398" y="91" type="curve" name="hintSet0000"/>
+      <point x="398" y="91" type="curve" name="hintRef0000"/>
       <point x="394" y="100"/>
       <point x="386" y="104"/>
       <point x="377" y="105" type="curve"/>
@@ -39,7 +39,7 @@
       <point x="348" y="9"/>
     </contour>
     <contour>
-      <point x="179" y="600" type="curve" name="hintSet0012"/>
+      <point x="179" y="600" type="curve"/>
       <point x="179" y="574"/>
       <point x="203" y="548"/>
       <point x="227" y="548" type="curve"/>
@@ -49,7 +49,7 @@
       <point x="279" y="620"/>
       <point x="258" y="648"/>
       <point x="231" y="648" type="curve"/>
-      <point x="207" y="648" name="hintSet0016"/>
+      <point x="207" y="648"/>
       <point x="179" y="624"/>
     </contour>
   </outline>
@@ -61,35 +61,12 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -10 49</string>
-              <string>hstem 406 33</string>
-              <string>hstem 648 -20</string>
-              <string>vstem 37 86</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0012</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -10 49</string>
               <string>hstem 406 33</string>
               <string>hstem 548 100</string>
-              <string>vstem 37 86</string>
-              <string>vstem 179 100</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0016</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -10 49</string>
-              <string>hstem 406 33</string>
-              <string>hstem 648 -20</string>
               <string>vstem 37 86</string>
               <string>vstem 179 100</string>
             </array>

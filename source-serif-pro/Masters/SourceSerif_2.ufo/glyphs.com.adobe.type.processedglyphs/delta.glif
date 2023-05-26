@@ -4,7 +4,7 @@
   <unicode hex="03B4"/>
   <outline>
     <contour>
-      <point x="52" y="235" type="line" name="hintSet0000"/>
+      <point x="52" y="235" type="line" name="hintRef0000"/>
       <point x="52" y="72"/>
       <point x="146" y="-13"/>
       <point x="268" y="-13" type="curve"/>
@@ -14,7 +14,7 @@
       <point x="466" y="346"/>
       <point x="423" y="418"/>
       <point x="289" y="499" type="curve"/>
-      <point x="183" y="562"/>
+      <point x="183" y="562" name="hintRef0001"/>
       <point x="149" y="597"/>
       <point x="149" y="642" type="curve"/>
       <point x="149" y="701"/>
@@ -48,7 +48,7 @@
       <point x="436" y="91"/>
       <point x="361" y="10"/>
       <point x="265" y="10" type="curve"/>
-      <point x="156" y="10"/>
+      <point x="156" y="10" name="hintRef0002"/>
       <point x="82" y="91"/>
       <point x="82" y="243" type="curve"/>
       <point x="82" y="378"/>
@@ -68,14 +68,34 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -13 23</string>
               <string>hstem 728 20</string>
               <string>vstem 52 30</string>
+              <string>vstem 436 30</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0001</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -13 23</string>
+              <string>hstem 728 20</string>
               <string>vstem 125 24</string>
-              <string>vstem 278 11</string>
+              <string>vstem 436 30</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0002</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -13 23</string>
+              <string>hstem 728 20</string>
+              <string>vstem 52 30</string>
               <string>vstem 436 30</string>
             </array>
           </dict>

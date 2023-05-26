@@ -4,7 +4,7 @@
   <unicode hex="1EB6"/>
   <outline>
     <contour>
-      <point x="235" y="357" type="line" name="hintSet0000"/>
+      <point x="235" y="357" type="line" name="hintRef0000"/>
       <point x="256" y="428"/>
       <point x="277" y="501"/>
       <point x="296" y="575" type="curve"/>
@@ -26,7 +26,7 @@
       <point x="242" y="655" type="line"/>
     </contour>
     <contour>
-      <point x="300" y="703" type="curve" name="hintSet0014"/>
+      <point x="300" y="703" type="curve"/>
       <point x="394" y="703"/>
       <point x="442" y="759"/>
       <point x="450" y="834" type="curve"/>
@@ -42,7 +42,7 @@
       <point x="206" y="703"/>
     </contour>
     <contour>
-      <point x="300" y="-223" type="curve" name="hintSet0021"/>
+      <point x="300" y="-223" type="curve"/>
       <point x="342" y="-223"/>
       <point x="374" y="-195"/>
       <point x="374" y="-152" type="curve"/>
@@ -64,33 +64,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 21 -21</string>
-              <string>hstem 188 79</string>
-              <string>hstem 575 80</string>
-              <string>hstem 703 61</string>
-              <string>vstem 226 148</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0014</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 21 -21</string>
-              <string>hstem 188 79</string>
-              <string>hstem 575 80</string>
-              <string>hstem 703 61</string>
-              <string>vstem 150 58</string>
-              <string>vstem 226 148</string>
-              <string>vstem 392 58</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0021</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -223 142</string>

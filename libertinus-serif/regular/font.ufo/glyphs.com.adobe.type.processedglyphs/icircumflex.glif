@@ -4,9 +4,9 @@
   <unicode hex="00EE"/>
   <outline>
     <contour>
-      <point x="181" y="122" type="curve" name="hintSet0000"/>
+      <point x="181" y="122" type="curve" name="hintRef0000"/>
       <point x="181" y="321" type="line"/>
-      <point x="181" y="371" name="hintSet0002"/>
+      <point x="181" y="371"/>
       <point x="185" y="435"/>
       <point x="185" y="435" type="curve"/>
       <point x="185" y="439"/>
@@ -28,7 +28,7 @@
       <point x="24" y="25"/>
       <point x="24" y="4"/>
       <point x="30" y="-2" type="curve"/>
-      <point x="63" y="-1" name="flexCurve0010"/>
+      <point x="63" y="-1" name="hintRef0001"/>
       <point x="102" y="0"/>
       <point x="142" y="0" type="curve"/>
       <point x="182" y="0"/>
@@ -37,7 +37,7 @@
       <point x="259" y="4"/>
       <point x="259" y="25"/>
       <point x="253" y="31" type="curve"/>
-      <point x="192" y="35" name="hintSet0013"/>
+      <point x="192" y="35"/>
       <point x="181" y="39"/>
     </contour>
     <contour>
@@ -70,37 +70,17 @@
       <dict>
         <key>flexList</key>
         <array>
-          <string>flexCurve0010</string>
+          <string>hintRef0001</string>
         </array>
         <key>hintSetList</key>
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 19 -21</string>
-              <string>hstem 442 -20</string>
-              <string>vstem 102 79</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0002</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 19 -21</string>
               <string>hstem 435 7</string>
-              <string>vstem 102 79</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0013</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 19 -21</string>
-              <string>hstem 442 -20</string>
               <string>vstem 102 79</string>
             </array>
           </dict>

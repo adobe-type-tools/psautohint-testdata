@@ -4,7 +4,7 @@
   <unicode hex="017C"/>
   <outline>
     <contour>
-      <point x="31" y="0" type="line" name="hintSet0000"/>
+      <point x="31" y="0" type="line" name="hintRef0000"/>
       <point x="465" y="0" type="line"/>
       <point x="480" y="74" type="line"/>
       <point x="168" y="74" type="line"/>
@@ -16,7 +16,7 @@
       <point x="41" y="55" type="line"/>
     </contour>
     <contour>
-      <point x="358" y="585" type="curve" name="hintSet0010"/>
+      <point x="358" y="585" type="curve"/>
       <point x="400" y="585"/>
       <point x="435" y="619"/>
       <point x="435" y="661" type="curve"/>
@@ -38,18 +38,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 74</string>
-              <string>hstem 416 73</string>
-              <string>hstem 721 -20</string>
-              <string>vstem 293 142</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0010</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 0 74</string>

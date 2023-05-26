@@ -4,7 +4,7 @@
   <unicode hex="0272"/>
   <outline>
     <contour>
-      <point x="52" y="-180" type="curve" name="hintSet0000"/>
+      <point x="52" y="-180" type="curve" name="hintRef0000"/>
       <point x="112" y="-180"/>
       <point x="140" y="-144"/>
       <point x="140" y="-54" type="curve"/>
@@ -25,7 +25,7 @@
       <point x="201" y="444"/>
       <point x="144" y="382" type="curve"/>
       <point x="140" y="382" type="line"/>
-      <point x="136" y="478" type="line" name="hintSet0011"/>
+      <point x="136" y="478" type="line" name="hintRef0001"/>
       <point x="110" y="478" type="line"/>
       <point x="110" y="-50" type="line"/>
       <point x="110" y="-110"/>
@@ -35,7 +35,7 @@
       <point x="22" y="-146"/>
       <point x="12" y="-142" type="curve"/>
       <point x="4" y="-168" type="line"/>
-      <point x="14" y="-174" name="hintSet0017"/>
+      <point x="14" y="-174"/>
       <point x="36" y="-180"/>
     </contour>
   </outline>
@@ -47,7 +47,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -180 28</string>
@@ -59,24 +59,12 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0011</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem -180 28</string>
               <string>hstem 21 -21</string>
               <string>hstem 478 -20</string>
-              <string>vstem 110 30</string>
-              <string>vstem 480 30</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0017</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -180 28</string>
-              <string>hstem 21 -21</string>
-              <string>hstem 462 28</string>
               <string>vstem 110 30</string>
               <string>vstem 480 30</string>
             </array>

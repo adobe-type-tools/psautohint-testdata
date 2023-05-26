@@ -4,10 +4,10 @@
   <unicode hex="2563"/>
   <outline>
     <contour>
-      <point x="322" y="-400" type="line" name="hintSet0000"/>
-      <point x="365" y="-400" type="line"/>
+      <point x="322" y="-400" type="line" name="hintRef0000"/>
+      <point x="365" y="-400" type="line" name="hintRef0001"/>
       <point x="365" y="1000" type="line"/>
-      <point x="322" y="1000" type="line"/>
+      <point x="322" y="1000" type="line" name="hintRef0002"/>
     </contour>
     <contour>
       <point x="279" y="322" type="line"/>
@@ -34,7 +34,28 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 236 43</string>
+              <string>hstem 322 43</string>
+              <string>vstem 236 43</string>
+              <string>vstem 322 43</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0001</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 236 43</string>
+              <string>hstem 322 43</string>
+              <string>vstem 236 129</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem 236 43</string>

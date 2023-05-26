@@ -4,15 +4,15 @@
   <unicode hex="2032"/>
   <outline>
     <contour>
-      <point x="45" y="381" type="line" name="hintSet0000"/>
-      <point x="120" y="371" type="line"/>
+      <point x="45" y="381" type="line" name="hintRef0000"/>
+      <point x="120" y="371" type="line" name="hintRef0001"/>
       <point x="138" y="412"/>
       <point x="155" y="452"/>
       <point x="164" y="475" type="curve"/>
       <point x="195" y="553"/>
       <point x="222" y="614"/>
       <point x="222" y="650" type="curve"/>
-      <point x="222" y="699"/>
+      <point x="222" y="699" name="hintRef0002"/>
       <point x="192" y="725"/>
       <point x="143" y="725" type="curve"/>
       <point x="113" y="725"/>
@@ -28,7 +28,25 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 725 -20</string>
+              <string>vstem 55.5 166.5</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0001</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 725 -20</string>
+              <string>vstem 45 177</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem 725 -20</string>

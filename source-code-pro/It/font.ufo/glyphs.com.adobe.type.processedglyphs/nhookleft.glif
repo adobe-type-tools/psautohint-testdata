@@ -4,7 +4,7 @@
   <unicode hex="0272"/>
   <outline>
     <contour>
-      <point x="-37" y="-183" type="curve" name="hintSet0000"/>
+      <point x="-37" y="-183" type="curve" name="hintRef0000"/>
       <point x="48" y="-183"/>
       <point x="86" y="-131"/>
       <point x="106" y="-33" type="curve"/>
@@ -31,7 +31,7 @@
       <point x="245" y="445"/>
       <point x="187" y="387" type="curve"/>
       <point x="183" y="387" type="line"/>
-      <point x="195" y="486" type="line" name="hintSet0013"/>
+      <point x="195" y="486" type="line" name="hintRef0001"/>
       <point x="133" y="486" type="line"/>
       <point x="29" y="-35" type="line"/>
       <point x="19" y="-84"/>
@@ -41,7 +41,7 @@
       <point x="-56" y="-113"/>
       <point x="-67" y="-107" type="curve"/>
       <point x="-95" y="-170" type="line"/>
-      <point x="-81" y="-178" name="hintSet0019"/>
+      <point x="-81" y="-178"/>
       <point x="-62" y="-183"/>
     </contour>
   </outline>
@@ -53,7 +53,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -183 67</string>
@@ -64,23 +64,12 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0013</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem -183 67</string>
               <string>hstem 21 -21</string>
               <string>hstem 486 -20</string>
-              <string>vstem 451 79</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0019</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -183 67</string>
-              <string>hstem 21 -21</string>
-              <string>hstem 432 66</string>
               <string>vstem 451 79</string>
             </array>
           </dict>

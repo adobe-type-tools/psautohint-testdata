@@ -2,7 +2,7 @@
 <glyph name="dieresismacron" format="2">
   <outline>
     <contour>
-      <point x="120" y="555" type="curve" name="hintSet0000"/>
+      <point x="120" y="555" type="curve" name="hintRef0000"/>
       <point x="161" y="555"/>
       <point x="197" y="582"/>
       <point x="197" y="628" type="curve"/>
@@ -30,7 +30,7 @@
       <point x="-160" y="555"/>
     </contour>
     <contour>
-      <point x="-159" y="741" type="line" name="hintSet0010"/>
+      <point x="-159" y="741" type="line" name="hintRef0001"/>
       <point x="159" y="741" type="line"/>
       <point x="159" y="830" type="line"/>
       <point x="-159" y="830" type="line"/>
@@ -44,7 +44,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 555 146</string>
@@ -55,10 +55,9 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0010</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
-              <string>hstem 555 146</string>
               <string>hstem 741 89</string>
               <string>vstem -159 318</string>
             </array>

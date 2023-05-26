@@ -3,7 +3,7 @@
   <advance width="425"/>
   <outline>
     <contour>
-      <point x="290" y="17" type="curve" name="hintSet0000"/>
+      <point x="290" y="17" type="curve" name="hintRef0000"/>
       <point x="290" y="-78"/>
       <point x="240" y="-148"/>
       <point x="180" y="-148" type="curve"/>
@@ -35,9 +35,9 @@
       <point x="269" y="361"/>
       <point x="303" y="363"/>
       <point x="344" y="367" type="curve"/>
-      <point x="360" y="435" type="line" name="hintSet0012"/>
-      <point x="353" y="439" type="line"/>
-      <point x="296" y="433" name="hintSet0014"/>
+      <point x="360" y="435" type="line" name="hintRef0001"/>
+      <point x="353" y="439" type="line" name="hintRef0002"/>
+      <point x="296" y="433" name="hintRef0003"/>
       <point x="242" y="428"/>
       <point x="189" y="428" type="curve"/>
       <point x="152" y="428"/>
@@ -59,7 +59,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -183 35</string>
@@ -70,7 +70,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0012</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem -183 35</string>
@@ -81,7 +81,18 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0014</string>
+            <string>hintRef0002</string>
+            <key>stems</key>
+            <array>
+              <string>hstem -183 35</string>
+              <string>hstem 169 50</string>
+              <string>hstem 439 -20</string>
+              <string>vstem 290 89</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0003</string>
             <key>stems</key>
             <array>
               <string>hstem -183 35</string>

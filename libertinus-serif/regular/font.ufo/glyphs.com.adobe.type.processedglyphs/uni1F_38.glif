@@ -4,7 +4,7 @@
   <unicode hex="1F38"/>
   <outline>
     <contour>
-      <point x="281" y="122" type="curve" name="hintSet0000"/>
+      <point x="281" y="122" type="curve" name="hintRef0000"/>
       <point x="281" y="523" type="line"/>
       <point x="281" y="606"/>
       <point x="298" y="611"/>
@@ -12,7 +12,7 @@
       <point x="374" y="620"/>
       <point x="374" y="641"/>
       <point x="368" y="647" type="curve"/>
-      <point x="324" y="646" name="flexCurve0004"/>
+      <point x="324" y="646" name="hintRef0001"/>
       <point x="277" y="645"/>
       <point x="238" y="645" type="curve"/>
       <point x="205" y="645"/>
@@ -31,7 +31,7 @@
       <point x="103" y="25"/>
       <point x="103" y="4"/>
       <point x="109" y="-2" type="curve"/>
-      <point x="154" y="-1" name="flexCurve0011"/>
+      <point x="154" y="-1" name="hintRef0002"/>
       <point x="203" y="0"/>
       <point x="239" y="0" type="curve"/>
       <point x="275" y="0"/>
@@ -44,8 +44,8 @@
       <point x="281" y="39"/>
     </contour>
     <contour>
-      <point x="13" y="725" type="curve" name="hintSet0015"/>
-      <point x="-17" y="725"/>
+      <point x="13" y="725" type="curve"/>
+      <point x="-17" y="725" name="hintRef0003"/>
       <point x="-31" y="707"/>
       <point x="-31" y="691" type="curve"/>
       <point x="-31" y="675"/>
@@ -71,14 +71,14 @@
       <dict>
         <key>flexList</key>
         <array>
-          <string>flexCurve0004</string>
-          <string>flexCurve0011</string>
+          <string>hintRef0001</string>
+          <string>hintRef0002</string>
         </array>
         <key>hintSetList</key>
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 19 -21</string>
@@ -88,7 +88,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0015</string>
+            <string>hintRef0003</string>
             <key>stems</key>
             <array>
               <string>hstem 19 -21</string>

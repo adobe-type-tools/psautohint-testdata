@@ -3,9 +3,9 @@
   <advance width="431"/>
   <outline>
     <contour>
-      <point x="80" y="464" type="line" name="hintSet0000"/>
+      <point x="80" y="464" type="line" name="hintRef0000"/>
       <point x="11" y="458" type="line"/>
-      <point x="11" y="426" type="line"/>
+      <point x="11" y="426" type="line" name="hintRef0001"/>
       <point x="158" y="426" type="line"/>
       <point x="158" y="458" type="line"/>
       <point x="94" y="464" type="line"/>
@@ -15,11 +15,11 @@
       <point x="318" y="468" type="line"/>
       <point x="232" y="458" type="line"/>
       <point x="232" y="426" type="line"/>
-      <point x="420" y="426" type="line"/>
-      <point x="420" y="458" type="line"/>
+      <point x="420" y="426" type="line" name="hintRef0002"/>
+      <point x="420" y="458" type="line" name="hintRef0003"/>
     </contour>
     <contour>
-      <point x="337" y="806" type="line" name="hintSet0012"/>
+      <point x="337" y="806" type="line"/>
       <point x="407" y="812" type="line"/>
       <point x="407" y="844" type="line"/>
       <point x="259" y="844" type="line"/>
@@ -27,7 +27,7 @@
       <point x="324" y="806" type="line"/>
     </contour>
     <contour>
-      <point x="102" y="802" type="line"/>
+      <point x="102" y="802" type="line" name="hintRef0004"/>
       <point x="119" y="802" type="line"/>
       <point x="205" y="812" type="line"/>
       <point x="205" y="844" type="line"/>
@@ -48,9 +48,9 @@
     </contour>
     <contour>
       <point x="226" y="624" type="line"/>
-      <point x="374" y="844" type="line"/>
+      <point x="374" y="844" type="line" name="hintRef0005"/>
       <point x="333" y="844" type="line"/>
-      <point x="202" y="640" type="line" name="hintSet0035"/>
+      <point x="202" y="640" type="line"/>
     </contour>
   </outline>
   <lib>
@@ -61,32 +61,58 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
-              <string>hstem 426 38</string>
+              <string>hstem 426 34.6772</string>
+              <string>vstem 11 409</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0001</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 426 34.6772</string>
               <string>vstem 11 147</string>
               <string>vstem 232 188</string>
             </array>
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0012</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
-              <string>hstem 426 38</string>
-              <string>hstem 654 -20</string>
-              <string>hstem 806 38</string>
-              <string>vstem 17 188</string>
-              <string>vstem 259 148</string>
+              <string>hstem 426 34.6772</string>
+              <string>vstem 11 409</string>
             </array>
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0035</string>
+            <string>hintRef0003</string>
             <key>stems</key>
             <array>
-              <string>hstem 640 -20</string>
+              <string>hstem 426 34.6772</string>
+              <string>hstem 809.5201 34.4799</string>
+              <string>vstem 232 188</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0004</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 426 34.6772</string>
+              <string>hstem 808.5213 35.4787</string>
+              <string>vstem 17 188</string>
+            </array>
+          </dict>
+          <dict>
+            <key>pointTag</key>
+            <string>hintRef0005</string>
+            <key>stems</key>
+            <array>
+              <string>hstem 809.5201 34.4799</string>
               <string>vstem 11 409</string>
             </array>
           </dict>

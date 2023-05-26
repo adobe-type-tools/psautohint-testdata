@@ -4,7 +4,7 @@
   <unicode hex="0104"/>
   <outline>
     <contour>
-      <point x="400" y="-228" type="curve" name="hintSet0000"/>
+      <point x="400" y="-228" type="curve" name="hintRef0000"/>
       <point x="438" y="-228"/>
       <point x="488" y="-216"/>
       <point x="520" y="-194" type="curve"/>
@@ -23,10 +23,10 @@
       <point x="-50" y="0" type="line"/>
       <point x="126" y="0" type="line"/>
       <point x="188" y="148" type="line"/>
-      <point x="358" y="148" type="line" name="hintSet0011"/>
-      <point x="362" y="0" type="line"/>
+      <point x="358" y="148" type="line"/>
+      <point x="362" y="0" type="line" name="hintRef0001"/>
       <point x="404" y="0" type="line"/>
-      <point x="364" y="-20" name="hintSet0014"/>
+      <point x="364" y="-20" name="hintRef0002"/>
       <point x="296" y="-76"/>
       <point x="296" y="-146" type="curve"/>
       <point x="296" y="-198"/>
@@ -53,7 +53,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -228 102</string>
@@ -65,22 +65,19 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0011</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
-              <string>hstem -228 102</string>
               <string>hstem 21 -21</string>
               <string>hstem 148 120</string>
-              <string>hstem 530 120</string>
               <string>vstem 360 60</string>
             </array>
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0014</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
-              <string>hstem -228 102</string>
               <string>hstem 21 -21</string>
               <string>hstem 148 120</string>
               <string>hstem 530 120</string>

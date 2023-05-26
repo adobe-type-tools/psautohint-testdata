@@ -4,21 +4,21 @@
   <unicode hex="01F8"/>
   <outline>
     <contour>
-      <point x="34" y="0" type="line" name="hintSet0000"/>
-      <point x="286" y="0" type="line" name="hintSet0001"/>
+      <point x="34" y="0" type="line" name="hintRef0000"/>
+      <point x="286" y="0" type="line"/>
       <point x="286" y="47" type="line"/>
-      <point x="176" y="61" type="line" name="hintSet0003"/>
+      <point x="176" y="61" type="line" name="hintRef0001"/>
       <point x="176" y="514" type="line"/>
-      <point x="553" y="-4" type="line" name="hintSet0005"/>
+      <point x="553" y="-4" type="line" name="hintRef0002"/>
       <point x="612" y="-4" type="line"/>
       <point x="612" y="603" type="line"/>
       <point x="697" y="616" type="line"/>
-      <point x="697" y="663" type="line" name="hintSet0009"/>
-      <point x="445" y="663" type="line"/>
-      <point x="445" y="616" type="line" name="hintSet0011"/>
-      <point x="555" y="603" type="line" name="hintSet0012"/>
+      <point x="697" y="663" type="line"/>
+      <point x="445" y="663" type="line" name="hintRef0003"/>
+      <point x="445" y="616" type="line"/>
+      <point x="555" y="603" type="line" name="hintRef0004"/>
       <point x="555" y="210" type="line"/>
-      <point x="226" y="663" type="line" name="hintSet0014"/>
+      <point x="226" y="663" type="line"/>
       <point x="37" y="663" type="line"/>
       <point x="37" y="616" type="line"/>
       <point x="108" y="609" type="line"/>
@@ -53,18 +53,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 47</string>
-              <string>hstem 612.5 50.5</string>
-              <string>vstem 119 57</string>
-              <string>vstem 555 57</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0001</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem 0 47</string>
@@ -75,7 +64,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0003</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem 0 47</string>
@@ -86,18 +75,18 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0005</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem 17 -21</string>
-              <string>hstem 616 47</string>
+              <string>hstem 612.5 50.5</string>
               <string>vstem 119 57</string>
               <string>vstem 555 57</string>
             </array>
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0009</string>
+            <string>hintRef0003</string>
             <key>stems</key>
             <array>
               <string>hstem 0 47</string>
@@ -108,29 +97,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0011</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 47</string>
-              <string>hstem 616 47</string>
-              <string>vstem 119 57</string>
-              <string>vstem 445 167</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0012</string>
-            <key>stems</key>
-            <array>
-              <string>hstem 0 47</string>
-              <string>hstem 616 47</string>
-              <string>vstem 119 57</string>
-              <string>vstem 555 57</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0014</string>
+            <string>hintRef0004</string>
             <key>stems</key>
             <array>
               <string>hstem 0 47</string>

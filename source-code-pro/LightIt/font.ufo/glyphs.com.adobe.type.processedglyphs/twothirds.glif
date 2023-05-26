@@ -4,7 +4,7 @@
   <unicode hex="2154"/>
   <outline>
     <contour>
-      <point x="-10" y="338" type="line" name="hintSet0000"/>
+      <point x="-10" y="338" type="line" name="hintRef0000"/>
       <point x="224" y="338" type="line"/>
       <point x="230" y="369" type="line"/>
       <point x="54" y="369" type="line"/>
@@ -48,7 +48,7 @@
       <point x="509" y="124"/>
       <point x="479" y="148"/>
       <point x="441" y="155" type="curve"/>
-      <point x="492" y="165" name="hintSet0022"/>
+      <point x="492" y="165" name="hintRef0001"/>
       <point x="524" y="198"/>
       <point x="524" y="243" type="curve"/>
       <point x="524" y="290"/>
@@ -67,8 +67,8 @@
       <point x="488" y="198"/>
       <point x="449" y="167"/>
       <point x="379" y="167" type="curve"/>
-      <point x="374" y="142" type="line" name="hintSet0029"/>
-      <point x="441" y="142"/>
+      <point x="374" y="142" type="line"/>
+      <point x="441" y="142" name="hintRef0002"/>
       <point x="473" y="124"/>
       <point x="473" y="84" type="curve"/>
       <point x="473" y="42"/>
@@ -90,7 +90,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -12 30</string>
@@ -103,13 +103,12 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0022</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem -12 30</string>
               <string>hstem 142 25</string>
               <string>hstem 283 30</string>
-              <string>hstem 338 31</string>
               <string>hstem 621 30</string>
               <string>vstem 196 38</string>
               <string>vstem 488 36</string>
@@ -117,7 +116,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0029</string>
+            <string>hintRef0002</string>
             <key>stems</key>
             <array>
               <string>hstem -12 30</string>

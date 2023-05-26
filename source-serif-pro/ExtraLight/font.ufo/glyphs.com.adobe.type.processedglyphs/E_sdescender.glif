@@ -4,7 +4,7 @@
   <unicode hex="04AA"/>
   <outline>
     <contour>
-      <point x="386" y="9" type="curve" name="hintSet0000"/>
+      <point x="386" y="9" type="curve" name="hintRef0000"/>
       <point x="219" y="9"/>
       <point x="96" y="135"/>
       <point x="96" y="338" type="curve"/>
@@ -48,13 +48,13 @@
       <point x="368" y="-13"/>
       <point x="378" y="-13"/>
       <point x="388" y="-13" type="curve"/>
-      <point x="460" y="-13" name="hintSet0018"/>
+      <point x="460" y="-13"/>
       <point x="517" y="-1"/>
       <point x="584" y="40" type="curve"/>
-      <point x="588" y="179" type="line"/>
+      <point x="588" y="179" type="line" name="hintRef0001"/>
       <point x="564" y="179" type="line"/>
       <point x="547" y="50" type="line"/>
-      <point x="497" y="20" name="hintSet0022"/>
+      <point x="497" y="20"/>
       <point x="447" y="9"/>
     </contour>
   </outline>
@@ -66,7 +66,7 @@
         <array>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0000</string>
+            <string>hintRef0000</string>
             <key>stems</key>
             <array>
               <string>hstem -214 19</string>
@@ -79,7 +79,7 @@
           </dict>
           <dict>
             <key>pointTag</key>
-            <string>hintSet0018</string>
+            <string>hintRef0001</string>
             <key>stems</key>
             <array>
               <string>hstem -214 19</string>
@@ -88,19 +88,6 @@
               <string>vstem 64 32</string>
               <string>vstem 380 30</string>
               <string>vstem 564 22</string>
-            </array>
-          </dict>
-          <dict>
-            <key>pointTag</key>
-            <string>hintSet0022</string>
-            <key>stems</key>
-            <array>
-              <string>hstem -214 19</string>
-              <string>hstem -13 22</string>
-              <string>hstem 668 22</string>
-              <string>vstem 64 32</string>
-              <string>vstem 380 30</string>
-              <string>vstem 558 22</string>
             </array>
           </dict>
         </array>
